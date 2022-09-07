@@ -1,0 +1,2091 @@
+---
+output:
+  html_document:
+    df_print: paged
+---
+
+
+# Glossary
+
+This chapter contains definitions and use cases for each field.
+
+## Academic Probation - Graduate
+
+**Source:** University Catalog
+
+**Date Revised:** 08/12/2022
+
+**Definition**
+Any graduate student whose cumulative GPA falls below 3.0 shall be placed on Academic Probation.  Graduate students on probation may take up to 9 additional credits in the graduate program in which they have been admitted.  Failure to bring the cumulative GPA to 3.0 or higher by the completion of the additional 9 credits will result in dismissal from the program and from SPU.  A graduate student cannot graduate with a cumulative GPA below 3.0.
+
+**Example Values**
+
+## Academic Probation - Undergraduate
+
+**Source:** University Catalog
+
+**Date Revised:** 08/12/2022
+
+**Definition**
+An undergraduate student attempting 6 credits or more at SPU is placed on first-quarter academic probation when his or her cumulative grade point average first falls below a 2.0.  Once on probation, any student who earns a quarterly GPA of 2.0 or higher, yet fails to raise the cumulative SPU to 2.0 or above, will be put on probation hold.  Once placed on probation hold, the student retains the same probation status as held the previous quarter, but does not move toward dismissal.  The second consecutive quarter the cumulative GPA remains below 2.0 and the quarterly GPA is below 2.3, the student will be placed on second-quarter academic probation.
+
+**Example Values**
+
+## Academic Year or Regular Session (Finance)
+
+**Source:** University Catalog
+
+**Date Revised:** 08/12/2022
+
+**Definition**
+The period of time generally extending from September to June; usually equated to three quarters--Fall, Winter, Spring
+
+**Example Values**
+
+
+## Admit Rate - Undergraduate
+
+**Source:** University Catalog
+
+**Date Revised:** 08/12/2022
+
+**Definition**
+Admitted students divided by completed applications.
+
+**Example Values**
+
+## Admitted student
+
+**Source:** University Catalog
+
+**Date Revised:** 08/12/2022
+
+**Definition**
+Applicant who is offered admission to a degree or certification program at SPU.
+
+**Example Values**
+
+## Alumni
+
+**Source:** University Catalog
+
+**Date Revised:** 08/12/2022
+
+**Definition**
+Former students (full- or part-time, undergraduate or graduate) who have earned credit toward degrees, certificates, or diplomas offered by the reporting institution. Alumni status takes precedence over any additional status.
+
+**Example Values**
+
+## Alumni Donors
+
+**Source:** University Catalog
+
+**Date Revised:** 08/12/2022
+
+
+**Definition**
+The number of alumni who made one or more gifts during the reporting year.
+
+**Example Values**
+
+## Alumni of Record
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Those living alumni carried in an institution's records for whom there is a means of contact.
+
+**Example Values**
+
+## Alumni Solicited
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+The number of alumni of record who received at least one solicitation during the course of the reporting year.
+
+**Example Values**
+
+## Auditor
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+A person who wishes to attend class but who does not desire credit is an auditor.  Courses that are audited do not count toward financial aid.  A student may receive credit for an audited course only by enrolling in it as a regular student in a subsequent quarter.
+
+**Example Values**
+
+## Bachelor's Degree 
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+An award (baccalaureate or equivalent degree, as determined by the Secretary of the U.S. Department of Education) that normally requires at least four years but not more than five years of full-time equivalent college-level work.  Also, it includes bachelor's degrees in which the normal four years of work are completed in three years.
+
+**Example Values**
+
+## Board days
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+The number of days the Gwinn Commons dining hall is open during the dates on the room & meal plan contract.  Partial days are calculated using the following: Breakfast is 0.22; Lunch is 0.33; Dinner is 0.45.  For example, total board days for 2014-15 was 221.35.
+
+**Example Values**
+
+## Capital Purposes: Endowment and Similar Funds: Income Restricted
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Gifts added to the endowment funds of the institution by donor direction, from which the income is limited by the donor for specific purposes or programs. The categories of restriction here are the same as those listed under Current Operations: Restricted.
+
+**Example Values**
+
+## Capital Purposes: Endowment and Similar Funds: Income Unrestricted
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Gifts restricted by donors for endowment, but not bearing any restriction from the donor as to the use of the income the endowment produces.
+
+**Example Values**
+
+## Capital Purposes: Loan Funds
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Gifts restricted by donors to be used to make loans to students, faculty, and staff.
+
+**Example Values**
+
+## Capital Purposes: Property, Buildings, and Equipment
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Gifts of real and personal property for the use of the institution, as well as gifts made for the purpose of purchasing buildings, other facilities, equipment, and land for use by the institution; constructing or providing major renovations of buildings and other facilities: and retirement of debt.
+
+**Example Values**
+
+## Catalog Year, Summer 2011 and forward
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Beginning in Summer 2011, the catalog year starts with Summer term and finishes with Spring term.  In the Banner term coding format, Summer 2011 will be 201120 and Fall 2011 will be 201121.
+
+**Example Values**
+
+## Census Date - 10th Day
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+The institution's official quarterly reporting date -- fall, winter and spring.  Fall 10th day is the university's official census date.  Strategic data is extracted from university transactional systems (e.g. Banner).
+
+**Example Values**
+
+## Census Date - End of Quarter
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+The institution's second official quarterly reporting date -- summer, fall, winter and spring.  Quarterly, this date occurs before grades are rolled to history and includes a final opportunity for departmental data managers to update information in the transactional system (e.g. Banner) before it is extracted and loaded into the Executive Decision Data Warehouse.
+
+**Example Values**
+
+## Certification - Education
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Completed requirements of an SPU certification program.  Certification programs in the School of Education are available at the undergraduate, master's, and doctoral levels.  The School of Education is responsible to notify SAS of students who complete a certification program in a term in which they are not earning a degree, and SAS will make note of the Certificate Awarded (CA) in SHADEGR.
+
+**Example Values**
+
+## Class rank
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+The relative numerical position of a student in his or her graduating class, as reported by the high school. 
+
+**Example Values**
+
+## Class Section - "regular" lecture section
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+A course which is provided principally by means of regularly scheduled classes meeting in classrooms or similar facilities at stated times.
+
+**Example Values**
+
+## Class Section - "regular" lecture section
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+For reporting departmental information (Quarterly Census; End of Year Academic Analysis/Faculty Load), "regular or organized" sections are identified any section that counts toward faculty load and is not identified as individual instruction.  When counting credits generated for faculty load purposes, overload classes are not included as part of "regular" credits.                                                                                   
+
+**Example Values**
+
+## Class Section - blended/hybrid instruction
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Course that blends online and face-to-face delivery.  Substantial portion of the content is delivered online, typically uses online discussions, and typically has some face-to-face meetings.  (Portion of content delivered online: 30 to 79%.)  Schedule code BRL identifies these classes.  For general discussion of schedule coding scheme, see "Class Section - Schedule Type - Coding Scheme."
+
+**Example Values**
+
+## Class Section - Individual Instruction
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+In an Individual Instruction class, the student does specific work independently with the instructor as outlined in the official Independent Study Agreement.  Work for an independent study occurs outside of the classroom setting.  The instructor and student must meet on a regular basis for the number of consultations noted in the agreement.  Courses are defined as individual instruction if they fall into one of the following types: Independent Study, Internship, Practicum (not Clinical Practicum), Research, Thesis, Colloquium, Special Topics, Individual Instruction, Dissertation.  For reporting departmental information (Quarterly Census; End of Year Academic Analysis), sections with a SSBSECT_SCHD_CODE of 1-character codes 5, 6, 7, 8, E, F, M, V, W and 3-character codes 2IN, 5IN, 7IL, 7IN, 8IN, EIL, HIN, JIL, JIN, MIL, MIN, NIL, OIL, RIN, VIN are considered individual instruction sections.
+
+**Example Values**
+
+## Class Section - Individual Instruction
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+A course in which instruction is not conducted in regularly scheduled class meetings.  Includes “readings” or “special topics” courses, "problems" or "research" courses, including dissertation/thesis research, and "individual lesson" courses (typically music and fine arts).
+
+**Example Values**
+
+## Class Section - Labs
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+For reporting departmental information (Quarterly Census; End of Year Academic Analysis), "labs" are identified as having zero (0) credits and/or have a  SSBSECT_SESS_CODE code of  3.
+
+**Example Values**
+
+## Class Section - online instruction
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Course where most of the content is delivered online.  Typically has no face-to-face meetings.  (Portion of content delivered online: 80% or more.)
+
+**Example Values**
+
+## Class Section - Schedule Type-Coding Scheme
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+For reporting purposes OIR uses a revised schedule type coding scheme.  OIR moved from a 1 character code to a 3 character code.  The fOIRst code is a unique identifier currently used on Banner -- e.g. H = special topics; the second character determines if the course is considered as a 1) regular/organized class (R) or 2) individual instruction(I)--e.g. HR, HI; while the thOIRd character determines if the course is 1) counted toward faculty load (L) or 2) not counted toward faculty load (N) -- e.g. HRL, HIN.    Exception: "Z" as second character = not counted when Faculty Load determined (CCCU) nor counted in Delaware Study.  Please see blue tab labeled "Schedule Codes" for an expanded discussion.
+
+**Example Values**
+
+## Class Section - traditional instruction
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Course with no online technology used - content is delivered in writing or orally.  (Portion of content delivered online: 0%.)
+
+**Example Values**
+
+## Class Section - web facilitated instruction
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Course which uses web-based technology to facilitate what is essentially a face-to-face course.  Uses a learning management system (CMS) or web pages to post the syllabus and assignments, for example.  (Portion of content delivered online: 1 to 29%.)
+
+**Example Values**
+
+## Class(1) - Freshman
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+An undergraduate student with fewer than 45 transcripted Undergraduate credit hours: includes SPU and transfer work accepted.
+
+**Example Values**
+
+## Class(2) - Sophomore
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+An undergraduate student with 45-89 transcripted credit hours: includes SPU and Transfer credits accepted. 
+
+**Example Values**
+
+## Class(3) - Junior
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+An undergraduate student with 90-134 transcripted credit hours: includes SPU and transfer credits accepted.
+
+**Example Values**
+
+## Class(4) - Senior
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+An undergraduate student with 135 or more transcripted credit hours: includes SPU and Transfer credits accepted.
+
+**Example Values**
+
+## Class(5) - Post-Baccalaureate Students
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Students who have received the baccalaureate degree and are seeking a second bachelor’s degree or initial teacher certification. Admission to this classification is by application only.
+
+**Example Values**
+
+## Class(6) - Master’s Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+A post-baccalaureate student enrolled in a graduate program that leads to a master’s degree or master's level certification. 
+
+**Example Values**
+
+## Class(7) - Doctoral Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+A post-baccalaureate student enrolled in a graduate program that leads to a an approved doctoral degree.
+
+**Example Values**
+
+## Clock Hours 
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+See Continuing Education Units
+
+**Example Values**
+
+## Cohort Term - First-time, Full-time Freshman
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+The term that full-time students enter college for the first time. Students who attend university as first-time students or who enter with advanced standing are counted as first-time first-year during a term.
+
+**Example Values**
+
+## Cohort Year - First-time, Full-time Freshman
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+The year that full-time students enter college for the first time. Students who attend university as first-time students or who enter with advanced standing are counted as first-time first-year during the academic year.
+
+**Example Values**
+
+## Cohort Year Coding Undergrad
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Undergraduate Cohort Coding:     1BH1F First-time Full-time Freshman; 1BH1P First-time Part-time Freshman; 1BT1F New Transfer w/AA Full-time; 1BT1P New Transfer w/AA Part-time; 1BT2F New Transfer <90cr Full-time; 1BT2P New Transfer <90cr Part-time.  Undergraduate cohort codes are assigned to new undergraduates in their matriculation term.
+
+**Example Values**
+
+## Common Curriculum
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+Undergraduate courses with Subject Code - UCOL, UCOR, UFDN and WRI
+
+**Example Values**
+
+## Commuter 
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+A student who lives off campus in housing that is not owned by, not operated by, or not affiliated with SPU. This category includes students who commute from home and students who have moved to the area to attend college.
+
+**Example Values**
+
+## Completed Applications
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+An individual who has fulfilled the institution's requirements to be considered for admission (including payment or waiving of the application fee, if any) and who has been notified of one of the following actions: admission, denial, placement on waiting list, or application withdrawn (by applicant or institution).
+
+**Example Values**
+
+## Confirmed Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+An admitted undergraduate student who has not cancelled his or her admission and who has done one or more of the following: made an advance payment, registered for or participated in New Student Advising (NSA), or registered for classes.  On an individual basis, a few additional non-cancelled admits may be considered confirmed.
+
+**Example Values**
+
+## Continuing Education Destiny One
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Continuing Education Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Continuing Education Term Code
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Continuing Education Units or Clock Hours
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Corporations
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Count - Duplicated
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Count - Unduplicated
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Courses, Graduate
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Courses, non-degree, Other
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Courses, Undergraduate, Lower Division
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Courses, Undergraduate, Upper Division
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Credit
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Cumulative Grade Point Average
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Current Operations: Restricted
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Current Operations: Unrestricted
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Decisioned Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Deferred Gifts
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Degrees Awarded
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Direct Expenditure
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Direct Expenditure
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Discount Rate - Institution Based (all institutional resources; undergraduate programs)
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Discount Rate - Undergraduate Tuition Based
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Doctoral Degree - Research/Scholarship
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Dual Enrollment
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Academic Administrator
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Faculty
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Faculty 
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Staff - IS
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Staff - Librarian
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Staff / Exempt
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Staff / Nonexempt
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Staff / Temporary
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Staff / Time / Full-time
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Staff / Time / Part-time
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee - Staff / Time / Short Hour
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee Full-time vs. Part-time
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee-Administrator
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Employee-Executive
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## End of Year
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Endowment
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Enrollment
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Expenditures
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Exploratory Curriculum
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty - Adjunct
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty - Non-Teaching Assignments
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty - One Year Appointment
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty - Regular
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty - Regular - Research
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty - Regular - Teaching
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty - Supplemental
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty and Staff
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty FTE
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty FTE
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty FTE - Adjunct
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty FTE - Calculator for workload of team-taught classes
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty FTE - Calculator for workload that includes graduate level classes
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty FTE - Overload
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty Load Credit (FLC)
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty Load Credit (FLC) - Release Credits
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty Load Credit (FLC) - Release Credits - Administration Credits
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty Load Credit (FLC) - Release Credits - Faculty Leave Credit
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty Load Credit (FLC) - Release Credits - Non-classroom Instructional Load Credit
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty Load Credit (FLC) - Release Credits - Professional Development Credit
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty Load Credit (FLC) - Release Credits - Teaching Load Credit
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty Load Credit (FLC) - Total Load Credit to Support Learning
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty Work Load
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Faculty Work Load Calculator - Applied to Graduate Courses
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Fall Cohort - First-time, Full-time Freshman
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Federal Work Study Program
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## First Generation Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## First-time, first-year student 
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## First-time, Full-time student 
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Fiscal Year
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Foundations
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Four Quarter Year
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Full Time Students
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Full-time Equivalence (FTE)
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Full-time vs. Part-time Student - Enrollment
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Full-time vs. Part-time Student - Financial Aid
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Fundraising Consortia
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Good Standing - Academic
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Grade Point Average 
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Graduate Admit - Probational
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Graduate Admit - Provisional
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Graduate student 
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Graduation Rate
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Graduation Rate - Doctoral
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Graduation Rate - First-time Full-time Freshmen
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Graduation Rate - Masters
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Graduation Rate - Transfers
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## High School applicant, Early Action
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## High School applicant, Late
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## High School applicant, Regular
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Housing codes for new students, indicating a deposit has been made
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Majors/Minors
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Master’s Degree
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Matriculated Students
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## National Merit Scholar
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Net Tuition Revenue - Graduate
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Net Tuition Revenue - Undergraduate
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## New Freshman
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## New student 
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Non-Matriculated Students
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Other Individuals
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Other Organizations
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Parents
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Persistence Rate (Retention) - First-time Full-time Freshmen
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Post-master’s Certificate
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Pre-Qualified MBA
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Quarter, Fall
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Quarter, Spring
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Quarter, Summer
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Quarter, Winter
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Race and ethnicity data reporting standards, Fall 2010 and forward
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Readmission
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Religious Organizations
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Residential Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Retention Rate - Graduate Students
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Retention Rate - Undergraduate Students
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## SATC reporting standard for First-time, Full-time Freshmen
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Section Credits Taught
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Senior Citizen Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Staff FTE
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Staff Turnover - Calculation
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student Faculty Ratio External
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student Faculty Ratio Internal                                      
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student FTE - Graduate, Annualized (4-quarter)
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student FTE - Graduate, by Term
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student FTE - Total Academic Year, Annualized (3-quarter)
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student FTE - Undergraduate, Annualized (3-quarter)
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Race and ethnicity data reporting standards, Fall 2010 and forward
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Readmission
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Religious Organizations
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Residential Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Retention Rate - Graduate Students
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Retention Rate - Undergraduate Students
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## SATC reporting standard for First-time, Full-time Freshmen
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Section Credits Taught
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Senior Citizen Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Staff FTE
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Staff Turnover - Calculation
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student Faculty Ratio External
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student Faculty Ratio Internal                                      
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student FTE - Graduate, Annualized (4-quarter)
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student FTE - Graduate, by Term
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student FTE - Total Academic Year, Annualized (3-quarter)
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student FTE - Undergraduate, Annualized (3-quarter)
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student FTE - Undergraduate, by Term
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Student Generated Credits
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Students
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Tenure Status
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Terminal Degree
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Transfer Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Undergraduate Student
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Year Cohort - First-time, Full-time Freshman
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Year Cohort - First-time, Full-time Freshman
+
+**Source:**
+
+**Date Revised:**
+
+**Definition**
+
+**Example Values**
+
+## Yield
+
