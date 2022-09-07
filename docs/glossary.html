@@ -1,0 +1,1969 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Glossary | UCB Data Dictionary</title>
+  <meta name="description" content="This book is a prototype of a functional Data Dictionary for University of Colorado Boulder." />
+  <meta name="generator" content="bookdown 0.28.2 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Glossary | UCB Data Dictionary" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This book is a prototype of a functional Data Dictionary for University of Colorado Boulder." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Glossary | UCB Data Dictionary" />
+  
+  <meta name="twitter:description" content="This book is a prototype of a functional Data Dictionary for University of Colorado Boulder." />
+  
+
+<meta name="author" content="Ben Croft" />
+
+
+<meta name="date" content="2022-09-07" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="term-enrollment-star.html"/>
+<link rel="next" href="intro.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">UCB Data Dictionary</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i><b>1.1</b> Prerequisites</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="overview.html"><a href="overview.html"><i class="fa fa-check"></i><b>2</b> Overview</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="overview.html"><a href="overview.html#where-does-the-student-success-data-mart-source-its-data-from"><i class="fa fa-check"></i><b>2.1</b> Where does the Student Success Data Mart source its data from?</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="academic-plan-summary-star.html"><a href="academic-plan-summary-star.html"><i class="fa fa-check"></i><b>3</b> Academic Plan Summary Star</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="academic-plan-summary-star.html"><a href="academic-plan-summary-star.html#description"><i class="fa fa-check"></i><b>3.1</b> Description</a></li>
+<li class="chapter" data-level="3.2" data-path="academic-plan-summary-star.html"><a href="academic-plan-summary-star.html#helps-answer"><i class="fa fa-check"></i><b>3.2</b> Helps Answer</a></li>
+<li class="chapter" data-level="3.3" data-path="academic-plan-summary-star.html"><a href="academic-plan-summary-star.html#star-links"><i class="fa fa-check"></i><b>3.3</b> Star Links</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="term-enrollment-star.html"><a href="term-enrollment-star.html"><i class="fa fa-check"></i><b>4</b> Term Enrollment Star</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="term-enrollment-star.html"><a href="term-enrollment-star.html#description-1"><i class="fa fa-check"></i><b>4.1</b> Description</a></li>
+<li class="chapter" data-level="4.2" data-path="term-enrollment-star.html"><a href="term-enrollment-star.html#helps-answer-1"><i class="fa fa-check"></i><b>4.2</b> Helps Answer</a></li>
+<li class="chapter" data-level="4.3" data-path="term-enrollment-star.html"><a href="term-enrollment-star.html#star-links-1"><i class="fa fa-check"></i><b>4.3</b> Star Links</a></li>
+<li class="chapter" data-level="4.4" data-path="term-enrollment-star.html"><a href="term-enrollment-star.html#data-definitions"><i class="fa fa-check"></i><b>4.4</b> Data Definitions</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>5</b> Glossary</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="glossary.html"><a href="glossary.html#academic-probation---graduate"><i class="fa fa-check"></i><b>5.1</b> Academic Probation - Graduate</a></li>
+<li class="chapter" data-level="5.2" data-path="glossary.html"><a href="glossary.html#academic-probation---undergraduate"><i class="fa fa-check"></i><b>5.2</b> Academic Probation - Undergraduate</a></li>
+<li class="chapter" data-level="5.3" data-path="glossary.html"><a href="glossary.html#academic-year-or-regular-session-finance"><i class="fa fa-check"></i><b>5.3</b> Academic Year or Regular Session (Finance)</a></li>
+<li class="chapter" data-level="5.4" data-path="glossary.html"><a href="glossary.html#admit-rate---undergraduate"><i class="fa fa-check"></i><b>5.4</b> Admit Rate - Undergraduate</a></li>
+<li class="chapter" data-level="5.5" data-path="glossary.html"><a href="glossary.html#admitted-student"><i class="fa fa-check"></i><b>5.5</b> Admitted student</a></li>
+<li class="chapter" data-level="5.6" data-path="glossary.html"><a href="glossary.html#alumni"><i class="fa fa-check"></i><b>5.6</b> Alumni</a></li>
+<li class="chapter" data-level="5.7" data-path="glossary.html"><a href="glossary.html#alumni-donors"><i class="fa fa-check"></i><b>5.7</b> Alumni Donors</a></li>
+<li class="chapter" data-level="5.8" data-path="glossary.html"><a href="glossary.html#alumni-of-record"><i class="fa fa-check"></i><b>5.8</b> Alumni of Record</a></li>
+<li class="chapter" data-level="5.9" data-path="glossary.html"><a href="glossary.html#alumni-solicited"><i class="fa fa-check"></i><b>5.9</b> Alumni Solicited</a></li>
+<li class="chapter" data-level="5.10" data-path="glossary.html"><a href="glossary.html#auditor"><i class="fa fa-check"></i><b>5.10</b> Auditor</a></li>
+<li class="chapter" data-level="5.11" data-path="glossary.html"><a href="glossary.html#bachelors-degree"><i class="fa fa-check"></i><b>5.11</b> Bachelor’s Degree</a></li>
+<li class="chapter" data-level="5.12" data-path="glossary.html"><a href="glossary.html#board-days"><i class="fa fa-check"></i><b>5.12</b> Board days</a></li>
+<li class="chapter" data-level="5.13" data-path="glossary.html"><a href="glossary.html#capital-purposes-endowment-and-similar-funds-income-restricted"><i class="fa fa-check"></i><b>5.13</b> Capital Purposes: Endowment and Similar Funds: Income Restricted</a></li>
+<li class="chapter" data-level="5.14" data-path="glossary.html"><a href="glossary.html#capital-purposes-endowment-and-similar-funds-income-unrestricted"><i class="fa fa-check"></i><b>5.14</b> Capital Purposes: Endowment and Similar Funds: Income Unrestricted</a></li>
+<li class="chapter" data-level="5.15" data-path="glossary.html"><a href="glossary.html#capital-purposes-loan-funds"><i class="fa fa-check"></i><b>5.15</b> Capital Purposes: Loan Funds</a></li>
+<li class="chapter" data-level="5.16" data-path="glossary.html"><a href="glossary.html#capital-purposes-property-buildings-and-equipment"><i class="fa fa-check"></i><b>5.16</b> Capital Purposes: Property, Buildings, and Equipment</a></li>
+<li class="chapter" data-level="5.17" data-path="glossary.html"><a href="glossary.html#catalog-year-summer-2011-and-forward"><i class="fa fa-check"></i><b>5.17</b> Catalog Year, Summer 2011 and forward</a></li>
+<li class="chapter" data-level="5.18" data-path="glossary.html"><a href="glossary.html#census-date---10th-day"><i class="fa fa-check"></i><b>5.18</b> Census Date - 10th Day</a></li>
+<li class="chapter" data-level="5.19" data-path="glossary.html"><a href="glossary.html#census-date---end-of-quarter"><i class="fa fa-check"></i><b>5.19</b> Census Date - End of Quarter</a></li>
+<li class="chapter" data-level="5.20" data-path="glossary.html"><a href="glossary.html#certification---education"><i class="fa fa-check"></i><b>5.20</b> Certification - Education</a></li>
+<li class="chapter" data-level="5.21" data-path="glossary.html"><a href="glossary.html#class-rank"><i class="fa fa-check"></i><b>5.21</b> Class rank</a></li>
+<li class="chapter" data-level="5.22" data-path="glossary.html"><a href="glossary.html#class-section---regular-lecture-section"><i class="fa fa-check"></i><b>5.22</b> Class Section - “regular” lecture section</a></li>
+<li class="chapter" data-level="5.23" data-path="glossary.html"><a href="glossary.html#class-section---regular-lecture-section-1"><i class="fa fa-check"></i><b>5.23</b> Class Section - “regular” lecture section</a></li>
+<li class="chapter" data-level="5.24" data-path="glossary.html"><a href="glossary.html#class-section---blendedhybrid-instruction"><i class="fa fa-check"></i><b>5.24</b> Class Section - blended/hybrid instruction</a></li>
+<li class="chapter" data-level="5.25" data-path="glossary.html"><a href="glossary.html#class-section---individual-instruction"><i class="fa fa-check"></i><b>5.25</b> Class Section - Individual Instruction</a></li>
+<li class="chapter" data-level="5.26" data-path="glossary.html"><a href="glossary.html#class-section---individual-instruction-1"><i class="fa fa-check"></i><b>5.26</b> Class Section - Individual Instruction</a></li>
+<li class="chapter" data-level="5.27" data-path="glossary.html"><a href="glossary.html#class-section---labs"><i class="fa fa-check"></i><b>5.27</b> Class Section - Labs</a></li>
+<li class="chapter" data-level="5.28" data-path="glossary.html"><a href="glossary.html#class-section---online-instruction"><i class="fa fa-check"></i><b>5.28</b> Class Section - online instruction</a></li>
+<li class="chapter" data-level="5.29" data-path="glossary.html"><a href="glossary.html#class-section---schedule-type-coding-scheme"><i class="fa fa-check"></i><b>5.29</b> Class Section - Schedule Type-Coding Scheme</a></li>
+<li class="chapter" data-level="5.30" data-path="glossary.html"><a href="glossary.html#class-section---traditional-instruction"><i class="fa fa-check"></i><b>5.30</b> Class Section - traditional instruction</a></li>
+<li class="chapter" data-level="5.31" data-path="glossary.html"><a href="glossary.html#class-section---web-facilitated-instruction"><i class="fa fa-check"></i><b>5.31</b> Class Section - web facilitated instruction</a></li>
+<li class="chapter" data-level="5.32" data-path="glossary.html"><a href="glossary.html#class1---freshman"><i class="fa fa-check"></i><b>5.32</b> Class(1) - Freshman</a></li>
+<li class="chapter" data-level="5.33" data-path="glossary.html"><a href="glossary.html#class2---sophomore"><i class="fa fa-check"></i><b>5.33</b> Class(2) - Sophomore</a></li>
+<li class="chapter" data-level="5.34" data-path="glossary.html"><a href="glossary.html#class3---junior"><i class="fa fa-check"></i><b>5.34</b> Class(3) - Junior</a></li>
+<li class="chapter" data-level="5.35" data-path="glossary.html"><a href="glossary.html#class4---senior"><i class="fa fa-check"></i><b>5.35</b> Class(4) - Senior</a></li>
+<li class="chapter" data-level="5.36" data-path="glossary.html"><a href="glossary.html#class5---post-baccalaureate-students"><i class="fa fa-check"></i><b>5.36</b> Class(5) - Post-Baccalaureate Students</a></li>
+<li class="chapter" data-level="5.37" data-path="glossary.html"><a href="glossary.html#class6---masters-student"><i class="fa fa-check"></i><b>5.37</b> Class(6) - Master’s Student</a></li>
+<li class="chapter" data-level="5.38" data-path="glossary.html"><a href="glossary.html#class7---doctoral-student"><i class="fa fa-check"></i><b>5.38</b> Class(7) - Doctoral Student</a></li>
+<li class="chapter" data-level="5.39" data-path="glossary.html"><a href="glossary.html#clock-hours"><i class="fa fa-check"></i><b>5.39</b> Clock Hours</a></li>
+<li class="chapter" data-level="5.40" data-path="glossary.html"><a href="glossary.html#cohort-term---first-time-full-time-freshman"><i class="fa fa-check"></i><b>5.40</b> Cohort Term - First-time, Full-time Freshman</a></li>
+<li class="chapter" data-level="5.41" data-path="glossary.html"><a href="glossary.html#cohort-year---first-time-full-time-freshman"><i class="fa fa-check"></i><b>5.41</b> Cohort Year - First-time, Full-time Freshman</a></li>
+<li class="chapter" data-level="5.42" data-path="glossary.html"><a href="glossary.html#cohort-year-coding-undergrad"><i class="fa fa-check"></i><b>5.42</b> Cohort Year Coding Undergrad</a></li>
+<li class="chapter" data-level="5.43" data-path="glossary.html"><a href="glossary.html#common-curriculum"><i class="fa fa-check"></i><b>5.43</b> Common Curriculum</a></li>
+<li class="chapter" data-level="5.44" data-path="glossary.html"><a href="glossary.html#commuter"><i class="fa fa-check"></i><b>5.44</b> Commuter</a></li>
+<li class="chapter" data-level="5.45" data-path="glossary.html"><a href="glossary.html#completed-applications"><i class="fa fa-check"></i><b>5.45</b> Completed Applications</a></li>
+<li class="chapter" data-level="5.46" data-path="glossary.html"><a href="glossary.html#confirmed-student"><i class="fa fa-check"></i><b>5.46</b> Confirmed Student</a></li>
+<li class="chapter" data-level="5.47" data-path="glossary.html"><a href="glossary.html#continuing-education-destiny-one"><i class="fa fa-check"></i><b>5.47</b> Continuing Education Destiny One</a></li>
+<li class="chapter" data-level="5.48" data-path="glossary.html"><a href="glossary.html#continuing-education-student"><i class="fa fa-check"></i><b>5.48</b> Continuing Education Student</a></li>
+<li class="chapter" data-level="5.49" data-path="glossary.html"><a href="glossary.html#continuing-education-term-code"><i class="fa fa-check"></i><b>5.49</b> Continuing Education Term Code</a></li>
+<li class="chapter" data-level="5.50" data-path="glossary.html"><a href="glossary.html#continuing-education-units-or-clock-hours"><i class="fa fa-check"></i><b>5.50</b> Continuing Education Units or Clock Hours</a></li>
+<li class="chapter" data-level="5.51" data-path="glossary.html"><a href="glossary.html#corporations"><i class="fa fa-check"></i><b>5.51</b> Corporations</a></li>
+<li class="chapter" data-level="5.52" data-path="glossary.html"><a href="glossary.html#count---duplicated"><i class="fa fa-check"></i><b>5.52</b> Count - Duplicated</a></li>
+<li class="chapter" data-level="5.53" data-path="glossary.html"><a href="glossary.html#count---unduplicated"><i class="fa fa-check"></i><b>5.53</b> Count - Unduplicated</a></li>
+<li class="chapter" data-level="5.54" data-path="glossary.html"><a href="glossary.html#courses-graduate"><i class="fa fa-check"></i><b>5.54</b> Courses, Graduate</a></li>
+<li class="chapter" data-level="5.55" data-path="glossary.html"><a href="glossary.html#courses-non-degree-other"><i class="fa fa-check"></i><b>5.55</b> Courses, non-degree, Other</a></li>
+<li class="chapter" data-level="5.56" data-path="glossary.html"><a href="glossary.html#courses-undergraduate-lower-division"><i class="fa fa-check"></i><b>5.56</b> Courses, Undergraduate, Lower Division</a></li>
+<li class="chapter" data-level="5.57" data-path="glossary.html"><a href="glossary.html#courses-undergraduate-upper-division"><i class="fa fa-check"></i><b>5.57</b> Courses, Undergraduate, Upper Division</a></li>
+<li class="chapter" data-level="5.58" data-path="glossary.html"><a href="glossary.html#credit"><i class="fa fa-check"></i><b>5.58</b> Credit</a></li>
+<li class="chapter" data-level="5.59" data-path="glossary.html"><a href="glossary.html#cumulative-grade-point-average"><i class="fa fa-check"></i><b>5.59</b> Cumulative Grade Point Average</a></li>
+<li class="chapter" data-level="5.60" data-path="glossary.html"><a href="glossary.html#current-operations-restricted"><i class="fa fa-check"></i><b>5.60</b> Current Operations: Restricted</a></li>
+<li class="chapter" data-level="5.61" data-path="glossary.html"><a href="glossary.html#current-operations-unrestricted"><i class="fa fa-check"></i><b>5.61</b> Current Operations: Unrestricted</a></li>
+<li class="chapter" data-level="5.62" data-path="glossary.html"><a href="glossary.html#decisioned-student"><i class="fa fa-check"></i><b>5.62</b> Decisioned Student</a></li>
+<li class="chapter" data-level="5.63" data-path="glossary.html"><a href="glossary.html#deferred-gifts"><i class="fa fa-check"></i><b>5.63</b> Deferred Gifts</a></li>
+<li class="chapter" data-level="5.64" data-path="glossary.html"><a href="glossary.html#degrees-awarded"><i class="fa fa-check"></i><b>5.64</b> Degrees Awarded</a></li>
+<li class="chapter" data-level="5.65" data-path="glossary.html"><a href="glossary.html#direct-expenditure"><i class="fa fa-check"></i><b>5.65</b> Direct Expenditure</a></li>
+<li class="chapter" data-level="5.66" data-path="glossary.html"><a href="glossary.html#direct-expenditure-1"><i class="fa fa-check"></i><b>5.66</b> Direct Expenditure</a></li>
+<li class="chapter" data-level="5.67" data-path="glossary.html"><a href="glossary.html#discount-rate---institution-based-all-institutional-resources-undergraduate-programs"><i class="fa fa-check"></i><b>5.67</b> Discount Rate - Institution Based (all institutional resources; undergraduate programs)</a></li>
+<li class="chapter" data-level="5.68" data-path="glossary.html"><a href="glossary.html#discount-rate---undergraduate-tuition-based"><i class="fa fa-check"></i><b>5.68</b> Discount Rate - Undergraduate Tuition Based</a></li>
+<li class="chapter" data-level="5.69" data-path="glossary.html"><a href="glossary.html#doctoral-degree---researchscholarship"><i class="fa fa-check"></i><b>5.69</b> Doctoral Degree - Research/Scholarship</a></li>
+<li class="chapter" data-level="5.70" data-path="glossary.html"><a href="glossary.html#dual-enrollment"><i class="fa fa-check"></i><b>5.70</b> Dual Enrollment</a></li>
+<li class="chapter" data-level="5.71" data-path="glossary.html"><a href="glossary.html#employee"><i class="fa fa-check"></i><b>5.71</b> Employee</a></li>
+<li class="chapter" data-level="5.72" data-path="glossary.html"><a href="glossary.html#employee---academic-administrator"><i class="fa fa-check"></i><b>5.72</b> Employee - Academic Administrator</a></li>
+<li class="chapter" data-level="5.73" data-path="glossary.html"><a href="glossary.html#employee---faculty"><i class="fa fa-check"></i><b>5.73</b> Employee - Faculty</a></li>
+<li class="chapter" data-level="5.74" data-path="glossary.html"><a href="glossary.html#employee---faculty-1"><i class="fa fa-check"></i><b>5.74</b> Employee - Faculty</a></li>
+<li class="chapter" data-level="5.75" data-path="glossary.html"><a href="glossary.html#employee---staff---is"><i class="fa fa-check"></i><b>5.75</b> Employee - Staff - IS</a></li>
+<li class="chapter" data-level="5.76" data-path="glossary.html"><a href="glossary.html#employee---staff---librarian"><i class="fa fa-check"></i><b>5.76</b> Employee - Staff - Librarian</a></li>
+<li class="chapter" data-level="5.77" data-path="glossary.html"><a href="glossary.html#employee---staff-exempt"><i class="fa fa-check"></i><b>5.77</b> Employee - Staff / Exempt</a></li>
+<li class="chapter" data-level="5.78" data-path="glossary.html"><a href="glossary.html#employee---staff-nonexempt"><i class="fa fa-check"></i><b>5.78</b> Employee - Staff / Nonexempt</a></li>
+<li class="chapter" data-level="5.79" data-path="glossary.html"><a href="glossary.html#employee---staff-temporary"><i class="fa fa-check"></i><b>5.79</b> Employee - Staff / Temporary</a></li>
+<li class="chapter" data-level="5.80" data-path="glossary.html"><a href="glossary.html#employee---staff-time-full-time"><i class="fa fa-check"></i><b>5.80</b> Employee - Staff / Time / Full-time</a></li>
+<li class="chapter" data-level="5.81" data-path="glossary.html"><a href="glossary.html#employee---staff-time-part-time"><i class="fa fa-check"></i><b>5.81</b> Employee - Staff / Time / Part-time</a></li>
+<li class="chapter" data-level="5.82" data-path="glossary.html"><a href="glossary.html#employee---staff-time-short-hour"><i class="fa fa-check"></i><b>5.82</b> Employee - Staff / Time / Short Hour</a></li>
+<li class="chapter" data-level="5.83" data-path="glossary.html"><a href="glossary.html#employee-full-time-vs.-part-time"><i class="fa fa-check"></i><b>5.83</b> Employee Full-time vs. Part-time</a></li>
+<li class="chapter" data-level="5.84" data-path="glossary.html"><a href="glossary.html#employee-administrator"><i class="fa fa-check"></i><b>5.84</b> Employee-Administrator</a></li>
+<li class="chapter" data-level="5.85" data-path="glossary.html"><a href="glossary.html#employee-executive"><i class="fa fa-check"></i><b>5.85</b> Employee-Executive</a></li>
+<li class="chapter" data-level="5.86" data-path="glossary.html"><a href="glossary.html#end-of-year"><i class="fa fa-check"></i><b>5.86</b> End of Year</a></li>
+<li class="chapter" data-level="5.87" data-path="glossary.html"><a href="glossary.html#endowment"><i class="fa fa-check"></i><b>5.87</b> Endowment</a></li>
+<li class="chapter" data-level="5.88" data-path="glossary.html"><a href="glossary.html#enrollment"><i class="fa fa-check"></i><b>5.88</b> Enrollment</a></li>
+<li class="chapter" data-level="5.89" data-path="glossary.html"><a href="glossary.html#expenditures"><i class="fa fa-check"></i><b>5.89</b> Expenditures</a></li>
+<li class="chapter" data-level="5.90" data-path="glossary.html"><a href="glossary.html#exploratory-curriculum"><i class="fa fa-check"></i><b>5.90</b> Exploratory Curriculum</a></li>
+<li class="chapter" data-level="5.91" data-path="glossary.html"><a href="glossary.html#faculty---adjunct"><i class="fa fa-check"></i><b>5.91</b> Faculty - Adjunct</a></li>
+<li class="chapter" data-level="5.92" data-path="glossary.html"><a href="glossary.html#faculty---non-teaching-assignments"><i class="fa fa-check"></i><b>5.92</b> Faculty - Non-Teaching Assignments</a></li>
+<li class="chapter" data-level="5.93" data-path="glossary.html"><a href="glossary.html#faculty---one-year-appointment"><i class="fa fa-check"></i><b>5.93</b> Faculty - One Year Appointment</a></li>
+<li class="chapter" data-level="5.94" data-path="glossary.html"><a href="glossary.html#faculty---regular"><i class="fa fa-check"></i><b>5.94</b> Faculty - Regular</a></li>
+<li class="chapter" data-level="5.95" data-path="glossary.html"><a href="glossary.html#faculty---regular---research"><i class="fa fa-check"></i><b>5.95</b> Faculty - Regular - Research</a></li>
+<li class="chapter" data-level="5.96" data-path="glossary.html"><a href="glossary.html#faculty---regular---teaching"><i class="fa fa-check"></i><b>5.96</b> Faculty - Regular - Teaching</a></li>
+<li class="chapter" data-level="5.97" data-path="glossary.html"><a href="glossary.html#faculty---supplemental"><i class="fa fa-check"></i><b>5.97</b> Faculty - Supplemental</a></li>
+<li class="chapter" data-level="5.98" data-path="glossary.html"><a href="glossary.html#faculty-and-staff"><i class="fa fa-check"></i><b>5.98</b> Faculty and Staff</a></li>
+<li class="chapter" data-level="5.99" data-path="glossary.html"><a href="glossary.html#faculty-fte"><i class="fa fa-check"></i><b>5.99</b> Faculty FTE</a></li>
+<li class="chapter" data-level="5.100" data-path="glossary.html"><a href="glossary.html#faculty-fte-1"><i class="fa fa-check"></i><b>5.100</b> Faculty FTE</a></li>
+<li class="chapter" data-level="5.101" data-path="glossary.html"><a href="glossary.html#faculty-fte---adjunct"><i class="fa fa-check"></i><b>5.101</b> Faculty FTE - Adjunct</a></li>
+<li class="chapter" data-level="5.102" data-path="glossary.html"><a href="glossary.html#faculty-fte---calculator-for-workload-of-team-taught-classes"><i class="fa fa-check"></i><b>5.102</b> Faculty FTE - Calculator for workload of team-taught classes</a></li>
+<li class="chapter" data-level="5.103" data-path="glossary.html"><a href="glossary.html#faculty-fte---calculator-for-workload-that-includes-graduate-level-classes"><i class="fa fa-check"></i><b>5.103</b> Faculty FTE - Calculator for workload that includes graduate level classes</a></li>
+<li class="chapter" data-level="5.104" data-path="glossary.html"><a href="glossary.html#faculty-fte---overload"><i class="fa fa-check"></i><b>5.104</b> Faculty FTE - Overload</a></li>
+<li class="chapter" data-level="5.105" data-path="glossary.html"><a href="glossary.html#faculty-load-credit-flc"><i class="fa fa-check"></i><b>5.105</b> Faculty Load Credit (FLC)</a></li>
+<li class="chapter" data-level="5.106" data-path="glossary.html"><a href="glossary.html#faculty-load-credit-flc---release-credits"><i class="fa fa-check"></i><b>5.106</b> Faculty Load Credit (FLC) - Release Credits</a></li>
+<li class="chapter" data-level="5.107" data-path="glossary.html"><a href="glossary.html#faculty-load-credit-flc---release-credits---administration-credits"><i class="fa fa-check"></i><b>5.107</b> Faculty Load Credit (FLC) - Release Credits - Administration Credits</a></li>
+<li class="chapter" data-level="5.108" data-path="glossary.html"><a href="glossary.html#faculty-load-credit-flc---release-credits---faculty-leave-credit"><i class="fa fa-check"></i><b>5.108</b> Faculty Load Credit (FLC) - Release Credits - Faculty Leave Credit</a></li>
+<li class="chapter" data-level="5.109" data-path="glossary.html"><a href="glossary.html#faculty-load-credit-flc---release-credits---non-classroom-instructional-load-credit"><i class="fa fa-check"></i><b>5.109</b> Faculty Load Credit (FLC) - Release Credits - Non-classroom Instructional Load Credit</a></li>
+<li class="chapter" data-level="5.110" data-path="glossary.html"><a href="glossary.html#faculty-load-credit-flc---release-credits---professional-development-credit"><i class="fa fa-check"></i><b>5.110</b> Faculty Load Credit (FLC) - Release Credits - Professional Development Credit</a></li>
+<li class="chapter" data-level="5.111" data-path="glossary.html"><a href="glossary.html#faculty-load-credit-flc---release-credits---teaching-load-credit"><i class="fa fa-check"></i><b>5.111</b> Faculty Load Credit (FLC) - Release Credits - Teaching Load Credit</a></li>
+<li class="chapter" data-level="5.112" data-path="glossary.html"><a href="glossary.html#faculty-load-credit-flc---total-load-credit-to-support-learning"><i class="fa fa-check"></i><b>5.112</b> Faculty Load Credit (FLC) - Total Load Credit to Support Learning</a></li>
+<li class="chapter" data-level="5.113" data-path="glossary.html"><a href="glossary.html#faculty-work-load"><i class="fa fa-check"></i><b>5.113</b> Faculty Work Load</a></li>
+<li class="chapter" data-level="5.114" data-path="glossary.html"><a href="glossary.html#faculty-work-load-calculator---applied-to-graduate-courses"><i class="fa fa-check"></i><b>5.114</b> Faculty Work Load Calculator - Applied to Graduate Courses</a></li>
+<li class="chapter" data-level="5.115" data-path="glossary.html"><a href="glossary.html#fall-cohort---first-time-full-time-freshman"><i class="fa fa-check"></i><b>5.115</b> Fall Cohort - First-time, Full-time Freshman</a></li>
+<li class="chapter" data-level="5.116" data-path="glossary.html"><a href="glossary.html#federal-work-study-program"><i class="fa fa-check"></i><b>5.116</b> Federal Work Study Program</a></li>
+<li class="chapter" data-level="5.117" data-path="glossary.html"><a href="glossary.html#first-generation-student"><i class="fa fa-check"></i><b>5.117</b> First Generation Student</a></li>
+<li class="chapter" data-level="5.118" data-path="glossary.html"><a href="glossary.html#first-time-first-year-student"><i class="fa fa-check"></i><b>5.118</b> First-time, first-year student</a></li>
+<li class="chapter" data-level="5.119" data-path="glossary.html"><a href="glossary.html#first-time-full-time-student"><i class="fa fa-check"></i><b>5.119</b> First-time, Full-time student</a></li>
+<li class="chapter" data-level="5.120" data-path="glossary.html"><a href="glossary.html#fiscal-year"><i class="fa fa-check"></i><b>5.120</b> Fiscal Year</a></li>
+<li class="chapter" data-level="5.121" data-path="glossary.html"><a href="glossary.html#foundations"><i class="fa fa-check"></i><b>5.121</b> Foundations</a></li>
+<li class="chapter" data-level="5.122" data-path="glossary.html"><a href="glossary.html#four-quarter-year"><i class="fa fa-check"></i><b>5.122</b> Four Quarter Year</a></li>
+<li class="chapter" data-level="5.123" data-path="glossary.html"><a href="glossary.html#full-time-students"><i class="fa fa-check"></i><b>5.123</b> Full Time Students</a></li>
+<li class="chapter" data-level="5.124" data-path="glossary.html"><a href="glossary.html#full-time-equivalence-fte"><i class="fa fa-check"></i><b>5.124</b> Full-time Equivalence (FTE)</a></li>
+<li class="chapter" data-level="5.125" data-path="glossary.html"><a href="glossary.html#full-time-vs.-part-time-student---enrollment"><i class="fa fa-check"></i><b>5.125</b> Full-time vs. Part-time Student - Enrollment</a></li>
+<li class="chapter" data-level="5.126" data-path="glossary.html"><a href="glossary.html#full-time-vs.-part-time-student---financial-aid"><i class="fa fa-check"></i><b>5.126</b> Full-time vs. Part-time Student - Financial Aid</a></li>
+<li class="chapter" data-level="5.127" data-path="glossary.html"><a href="glossary.html#fundraising-consortia"><i class="fa fa-check"></i><b>5.127</b> Fundraising Consortia</a></li>
+<li class="chapter" data-level="5.128" data-path="glossary.html"><a href="glossary.html#good-standing---academic"><i class="fa fa-check"></i><b>5.128</b> Good Standing - Academic</a></li>
+<li class="chapter" data-level="5.129" data-path="glossary.html"><a href="glossary.html#grade-point-average"><i class="fa fa-check"></i><b>5.129</b> Grade Point Average</a></li>
+<li class="chapter" data-level="5.130" data-path="glossary.html"><a href="glossary.html#graduate-admit---probational"><i class="fa fa-check"></i><b>5.130</b> Graduate Admit - Probational</a></li>
+<li class="chapter" data-level="5.131" data-path="glossary.html"><a href="glossary.html#graduate-admit---provisional"><i class="fa fa-check"></i><b>5.131</b> Graduate Admit - Provisional</a></li>
+<li class="chapter" data-level="5.132" data-path="glossary.html"><a href="glossary.html#graduate-student"><i class="fa fa-check"></i><b>5.132</b> Graduate student</a></li>
+<li class="chapter" data-level="5.133" data-path="glossary.html"><a href="glossary.html#graduation-rate"><i class="fa fa-check"></i><b>5.133</b> Graduation Rate</a></li>
+<li class="chapter" data-level="5.134" data-path="glossary.html"><a href="glossary.html#graduation-rate---doctoral"><i class="fa fa-check"></i><b>5.134</b> Graduation Rate - Doctoral</a></li>
+<li class="chapter" data-level="5.135" data-path="glossary.html"><a href="glossary.html#graduation-rate---first-time-full-time-freshmen"><i class="fa fa-check"></i><b>5.135</b> Graduation Rate - First-time Full-time Freshmen</a></li>
+<li class="chapter" data-level="5.136" data-path="glossary.html"><a href="glossary.html#graduation-rate---masters"><i class="fa fa-check"></i><b>5.136</b> Graduation Rate - Masters</a></li>
+<li class="chapter" data-level="5.137" data-path="glossary.html"><a href="glossary.html#graduation-rate---transfers"><i class="fa fa-check"></i><b>5.137</b> Graduation Rate - Transfers</a></li>
+<li class="chapter" data-level="5.138" data-path="glossary.html"><a href="glossary.html#high-school-applicant-early-action"><i class="fa fa-check"></i><b>5.138</b> High School applicant, Early Action</a></li>
+<li class="chapter" data-level="5.139" data-path="glossary.html"><a href="glossary.html#high-school-applicant-late"><i class="fa fa-check"></i><b>5.139</b> High School applicant, Late</a></li>
+<li class="chapter" data-level="5.140" data-path="glossary.html"><a href="glossary.html#high-school-applicant-regular"><i class="fa fa-check"></i><b>5.140</b> High School applicant, Regular</a></li>
+<li class="chapter" data-level="5.141" data-path="glossary.html"><a href="glossary.html#housing-codes-for-new-students-indicating-a-deposit-has-been-made"><i class="fa fa-check"></i><b>5.141</b> Housing codes for new students, indicating a deposit has been made</a></li>
+<li class="chapter" data-level="5.142" data-path="glossary.html"><a href="glossary.html#majorsminors"><i class="fa fa-check"></i><b>5.142</b> Majors/Minors</a></li>
+<li class="chapter" data-level="5.143" data-path="glossary.html"><a href="glossary.html#masters-degree"><i class="fa fa-check"></i><b>5.143</b> Master’s Degree</a></li>
+<li class="chapter" data-level="5.144" data-path="glossary.html"><a href="glossary.html#matriculated-students"><i class="fa fa-check"></i><b>5.144</b> Matriculated Students</a></li>
+<li class="chapter" data-level="5.145" data-path="glossary.html"><a href="glossary.html#national-merit-scholar"><i class="fa fa-check"></i><b>5.145</b> National Merit Scholar</a></li>
+<li class="chapter" data-level="5.146" data-path="glossary.html"><a href="glossary.html#net-tuition-revenue---graduate"><i class="fa fa-check"></i><b>5.146</b> Net Tuition Revenue - Graduate</a></li>
+<li class="chapter" data-level="5.147" data-path="glossary.html"><a href="glossary.html#net-tuition-revenue---undergraduate"><i class="fa fa-check"></i><b>5.147</b> Net Tuition Revenue - Undergraduate</a></li>
+<li class="chapter" data-level="5.148" data-path="glossary.html"><a href="glossary.html#new-freshman"><i class="fa fa-check"></i><b>5.148</b> New Freshman</a></li>
+<li class="chapter" data-level="5.149" data-path="glossary.html"><a href="glossary.html#new-student"><i class="fa fa-check"></i><b>5.149</b> New student</a></li>
+<li class="chapter" data-level="5.150" data-path="glossary.html"><a href="glossary.html#non-matriculated-students"><i class="fa fa-check"></i><b>5.150</b> Non-Matriculated Students</a></li>
+<li class="chapter" data-level="5.151" data-path="glossary.html"><a href="glossary.html#other-individuals"><i class="fa fa-check"></i><b>5.151</b> Other Individuals</a></li>
+<li class="chapter" data-level="5.152" data-path="glossary.html"><a href="glossary.html#other-organizations"><i class="fa fa-check"></i><b>5.152</b> Other Organizations</a></li>
+<li class="chapter" data-level="5.153" data-path="glossary.html"><a href="glossary.html#parents"><i class="fa fa-check"></i><b>5.153</b> Parents</a></li>
+<li class="chapter" data-level="5.154" data-path="glossary.html"><a href="glossary.html#persistence-rate-retention---first-time-full-time-freshmen"><i class="fa fa-check"></i><b>5.154</b> Persistence Rate (Retention) - First-time Full-time Freshmen</a></li>
+<li class="chapter" data-level="5.155" data-path="glossary.html"><a href="glossary.html#post-masters-certificate"><i class="fa fa-check"></i><b>5.155</b> Post-master’s Certificate</a></li>
+<li class="chapter" data-level="5.156" data-path="glossary.html"><a href="glossary.html#pre-qualified-mba"><i class="fa fa-check"></i><b>5.156</b> Pre-Qualified MBA</a></li>
+<li class="chapter" data-level="5.157" data-path="glossary.html"><a href="glossary.html#quarter-fall"><i class="fa fa-check"></i><b>5.157</b> Quarter, Fall</a></li>
+<li class="chapter" data-level="5.158" data-path="glossary.html"><a href="glossary.html#quarter-spring"><i class="fa fa-check"></i><b>5.158</b> Quarter, Spring</a></li>
+<li class="chapter" data-level="5.159" data-path="glossary.html"><a href="glossary.html#quarter-summer"><i class="fa fa-check"></i><b>5.159</b> Quarter, Summer</a></li>
+<li class="chapter" data-level="5.160" data-path="glossary.html"><a href="glossary.html#quarter-winter"><i class="fa fa-check"></i><b>5.160</b> Quarter, Winter</a></li>
+<li class="chapter" data-level="5.161" data-path="glossary.html"><a href="glossary.html#race-and-ethnicity-data-reporting-standards-fall-2010-and-forward"><i class="fa fa-check"></i><b>5.161</b> Race and ethnicity data reporting standards, Fall 2010 and forward</a></li>
+<li class="chapter" data-level="5.162" data-path="glossary.html"><a href="glossary.html#readmission"><i class="fa fa-check"></i><b>5.162</b> Readmission</a></li>
+<li class="chapter" data-level="5.163" data-path="glossary.html"><a href="glossary.html#religious-organizations"><i class="fa fa-check"></i><b>5.163</b> Religious Organizations</a></li>
+<li class="chapter" data-level="5.164" data-path="glossary.html"><a href="glossary.html#residential-student"><i class="fa fa-check"></i><b>5.164</b> Residential Student</a></li>
+<li class="chapter" data-level="5.165" data-path="glossary.html"><a href="glossary.html#retention-rate---graduate-students"><i class="fa fa-check"></i><b>5.165</b> Retention Rate - Graduate Students</a></li>
+<li class="chapter" data-level="5.166" data-path="glossary.html"><a href="glossary.html#retention-rate---undergraduate-students"><i class="fa fa-check"></i><b>5.166</b> Retention Rate - Undergraduate Students</a></li>
+<li class="chapter" data-level="5.167" data-path="glossary.html"><a href="glossary.html#satc-reporting-standard-for-first-time-full-time-freshmen"><i class="fa fa-check"></i><b>5.167</b> SATC reporting standard for First-time, Full-time Freshmen</a></li>
+<li class="chapter" data-level="5.168" data-path="glossary.html"><a href="glossary.html#section-credits-taught"><i class="fa fa-check"></i><b>5.168</b> Section Credits Taught</a></li>
+<li class="chapter" data-level="5.169" data-path="glossary.html"><a href="glossary.html#senior-citizen-student"><i class="fa fa-check"></i><b>5.169</b> Senior Citizen Student</a></li>
+<li class="chapter" data-level="5.170" data-path="glossary.html"><a href="glossary.html#staff-fte"><i class="fa fa-check"></i><b>5.170</b> Staff FTE</a></li>
+<li class="chapter" data-level="5.171" data-path="glossary.html"><a href="glossary.html#staff-turnover---calculation"><i class="fa fa-check"></i><b>5.171</b> Staff Turnover - Calculation</a></li>
+<li class="chapter" data-level="5.172" data-path="glossary.html"><a href="glossary.html#student-faculty-ratio-external"><i class="fa fa-check"></i><b>5.172</b> Student Faculty Ratio External</a></li>
+<li class="chapter" data-level="5.173" data-path="glossary.html"><a href="glossary.html#student-faculty-ratio-internal"><i class="fa fa-check"></i><b>5.173</b> Student Faculty Ratio Internal</a></li>
+<li class="chapter" data-level="5.174" data-path="glossary.html"><a href="glossary.html#student-fte---graduate-annualized-4-quarter"><i class="fa fa-check"></i><b>5.174</b> Student FTE - Graduate, Annualized (4-quarter)</a></li>
+<li class="chapter" data-level="5.175" data-path="glossary.html"><a href="glossary.html#student-fte---graduate-by-term"><i class="fa fa-check"></i><b>5.175</b> Student FTE - Graduate, by Term</a></li>
+<li class="chapter" data-level="5.176" data-path="glossary.html"><a href="glossary.html#student-fte---total-academic-year-annualized-3-quarter"><i class="fa fa-check"></i><b>5.176</b> Student FTE - Total Academic Year, Annualized (3-quarter)</a></li>
+<li class="chapter" data-level="5.177" data-path="glossary.html"><a href="glossary.html#student-fte---undergraduate-annualized-3-quarter"><i class="fa fa-check"></i><b>5.177</b> Student FTE - Undergraduate, Annualized (3-quarter)</a></li>
+<li class="chapter" data-level="5.178" data-path="glossary.html"><a href="glossary.html#race-and-ethnicity-data-reporting-standards-fall-2010-and-forward-1"><i class="fa fa-check"></i><b>5.178</b> Race and ethnicity data reporting standards, Fall 2010 and forward</a></li>
+<li class="chapter" data-level="5.179" data-path="glossary.html"><a href="glossary.html#readmission-1"><i class="fa fa-check"></i><b>5.179</b> Readmission</a></li>
+<li class="chapter" data-level="5.180" data-path="glossary.html"><a href="glossary.html#religious-organizations-1"><i class="fa fa-check"></i><b>5.180</b> Religious Organizations</a></li>
+<li class="chapter" data-level="5.181" data-path="glossary.html"><a href="glossary.html#residential-student-1"><i class="fa fa-check"></i><b>5.181</b> Residential Student</a></li>
+<li class="chapter" data-level="5.182" data-path="glossary.html"><a href="glossary.html#retention-rate---graduate-students-1"><i class="fa fa-check"></i><b>5.182</b> Retention Rate - Graduate Students</a></li>
+<li class="chapter" data-level="5.183" data-path="glossary.html"><a href="glossary.html#retention-rate---undergraduate-students-1"><i class="fa fa-check"></i><b>5.183</b> Retention Rate - Undergraduate Students</a></li>
+<li class="chapter" data-level="5.184" data-path="glossary.html"><a href="glossary.html#satc-reporting-standard-for-first-time-full-time-freshmen-1"><i class="fa fa-check"></i><b>5.184</b> SATC reporting standard for First-time, Full-time Freshmen</a></li>
+<li class="chapter" data-level="5.185" data-path="glossary.html"><a href="glossary.html#section-credits-taught-1"><i class="fa fa-check"></i><b>5.185</b> Section Credits Taught</a></li>
+<li class="chapter" data-level="5.186" data-path="glossary.html"><a href="glossary.html#senior-citizen-student-1"><i class="fa fa-check"></i><b>5.186</b> Senior Citizen Student</a></li>
+<li class="chapter" data-level="5.187" data-path="glossary.html"><a href="glossary.html#staff-fte-1"><i class="fa fa-check"></i><b>5.187</b> Staff FTE</a></li>
+<li class="chapter" data-level="5.188" data-path="glossary.html"><a href="glossary.html#staff-turnover---calculation-1"><i class="fa fa-check"></i><b>5.188</b> Staff Turnover - Calculation</a></li>
+<li class="chapter" data-level="5.189" data-path="glossary.html"><a href="glossary.html#student-faculty-ratio-external-1"><i class="fa fa-check"></i><b>5.189</b> Student Faculty Ratio External</a></li>
+<li class="chapter" data-level="5.190" data-path="glossary.html"><a href="glossary.html#student-faculty-ratio-internal-1"><i class="fa fa-check"></i><b>5.190</b> Student Faculty Ratio Internal</a></li>
+<li class="chapter" data-level="5.191" data-path="glossary.html"><a href="glossary.html#student-fte---graduate-annualized-4-quarter-1"><i class="fa fa-check"></i><b>5.191</b> Student FTE - Graduate, Annualized (4-quarter)</a></li>
+<li class="chapter" data-level="5.192" data-path="glossary.html"><a href="glossary.html#student-fte---graduate-by-term-1"><i class="fa fa-check"></i><b>5.192</b> Student FTE - Graduate, by Term</a></li>
+<li class="chapter" data-level="5.193" data-path="glossary.html"><a href="glossary.html#student-fte---total-academic-year-annualized-3-quarter-1"><i class="fa fa-check"></i><b>5.193</b> Student FTE - Total Academic Year, Annualized (3-quarter)</a></li>
+<li class="chapter" data-level="5.194" data-path="glossary.html"><a href="glossary.html#student-fte---undergraduate-annualized-3-quarter-1"><i class="fa fa-check"></i><b>5.194</b> Student FTE - Undergraduate, Annualized (3-quarter)</a></li>
+<li class="chapter" data-level="5.195" data-path="glossary.html"><a href="glossary.html#student-fte---undergraduate-by-term"><i class="fa fa-check"></i><b>5.195</b> Student FTE - Undergraduate, by Term</a></li>
+<li class="chapter" data-level="5.196" data-path="glossary.html"><a href="glossary.html#student-generated-credits"><i class="fa fa-check"></i><b>5.196</b> Student Generated Credits</a></li>
+<li class="chapter" data-level="5.197" data-path="glossary.html"><a href="glossary.html#students"><i class="fa fa-check"></i><b>5.197</b> Students</a></li>
+<li class="chapter" data-level="5.198" data-path="glossary.html"><a href="glossary.html#tenure-status"><i class="fa fa-check"></i><b>5.198</b> Tenure Status</a></li>
+<li class="chapter" data-level="5.199" data-path="glossary.html"><a href="glossary.html#terminal-degree"><i class="fa fa-check"></i><b>5.199</b> Terminal Degree</a></li>
+<li class="chapter" data-level="5.200" data-path="glossary.html"><a href="glossary.html#transfer-student"><i class="fa fa-check"></i><b>5.200</b> Transfer Student</a></li>
+<li class="chapter" data-level="5.201" data-path="glossary.html"><a href="glossary.html#undergraduate-student"><i class="fa fa-check"></i><b>5.201</b> Undergraduate Student</a></li>
+<li class="chapter" data-level="5.202" data-path="glossary.html"><a href="glossary.html#year-cohort---first-time-full-time-freshman"><i class="fa fa-check"></i><b>5.202</b> Year Cohort - First-time, Full-time Freshman</a></li>
+<li class="chapter" data-level="5.203" data-path="glossary.html"><a href="glossary.html#year-cohort---first-time-full-time-freshman-1"><i class="fa fa-check"></i><b>5.203</b> Year Cohort - First-time, Full-time Freshman</a></li>
+<li class="chapter" data-level="5.204" data-path="glossary.html"><a href="glossary.html#yield"><i class="fa fa-check"></i><b>5.204</b> Yield</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>6</b> Introduction</a></li>
+<li class="chapter" data-level="7" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>7</b> Methods</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="methods.html"><a href="methods.html#math-example"><i class="fa fa-check"></i><b>7.1</b> math example</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">UCB Data Dictionary</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="glossary" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Glossary<a href="glossary.html#glossary" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This chapter contains definitions and use cases for each field.</p>
+<div id="academic-probation---graduate" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Academic Probation - Graduate<a href="glossary.html#academic-probation---graduate" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong> University Catalog</p>
+<p><strong>Date Revised:</strong> 08/12/2022</p>
+<p><strong>Definition</strong>
+Any graduate student whose cumulative GPA falls below 3.0 shall be placed on Academic Probation. Graduate students on probation may take up to 9 additional credits in the graduate program in which they have been admitted. Failure to bring the cumulative GPA to 3.0 or higher by the completion of the additional 9 credits will result in dismissal from the program and from SPU. A graduate student cannot graduate with a cumulative GPA below 3.0.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="academic-probation---undergraduate" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Academic Probation - Undergraduate<a href="glossary.html#academic-probation---undergraduate" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong> University Catalog</p>
+<p><strong>Date Revised:</strong> 08/12/2022</p>
+<p><strong>Definition</strong>
+An undergraduate student attempting 6 credits or more at SPU is placed on first-quarter academic probation when his or her cumulative grade point average first falls below a 2.0. Once on probation, any student who earns a quarterly GPA of 2.0 or higher, yet fails to raise the cumulative SPU to 2.0 or above, will be put on probation hold. Once placed on probation hold, the student retains the same probation status as held the previous quarter, but does not move toward dismissal. The second consecutive quarter the cumulative GPA remains below 2.0 and the quarterly GPA is below 2.3, the student will be placed on second-quarter academic probation.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="academic-year-or-regular-session-finance" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Academic Year or Regular Session (Finance)<a href="glossary.html#academic-year-or-regular-session-finance" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong> University Catalog</p>
+<p><strong>Date Revised:</strong> 08/12/2022</p>
+<p><strong>Definition</strong>
+The period of time generally extending from September to June; usually equated to three quarters–Fall, Winter, Spring</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="admit-rate---undergraduate" class="section level2 hasAnchor" number="5.4">
+<h2><span class="header-section-number">5.4</span> Admit Rate - Undergraduate<a href="glossary.html#admit-rate---undergraduate" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong> University Catalog</p>
+<p><strong>Date Revised:</strong> 08/12/2022</p>
+<p><strong>Definition</strong>
+Admitted students divided by completed applications.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="admitted-student" class="section level2 hasAnchor" number="5.5">
+<h2><span class="header-section-number">5.5</span> Admitted student<a href="glossary.html#admitted-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong> University Catalog</p>
+<p><strong>Date Revised:</strong> 08/12/2022</p>
+<p><strong>Definition</strong>
+Applicant who is offered admission to a degree or certification program at SPU.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="alumni" class="section level2 hasAnchor" number="5.6">
+<h2><span class="header-section-number">5.6</span> Alumni<a href="glossary.html#alumni" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong> University Catalog</p>
+<p><strong>Date Revised:</strong> 08/12/2022</p>
+<p><strong>Definition</strong>
+Former students (full- or part-time, undergraduate or graduate) who have earned credit toward degrees, certificates, or diplomas offered by the reporting institution. Alumni status takes precedence over any additional status.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="alumni-donors" class="section level2 hasAnchor" number="5.7">
+<h2><span class="header-section-number">5.7</span> Alumni Donors<a href="glossary.html#alumni-donors" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong> University Catalog</p>
+<p><strong>Date Revised:</strong> 08/12/2022</p>
+<p><strong>Definition</strong>
+The number of alumni who made one or more gifts during the reporting year.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="alumni-of-record" class="section level2 hasAnchor" number="5.8">
+<h2><span class="header-section-number">5.8</span> Alumni of Record<a href="glossary.html#alumni-of-record" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Those living alumni carried in an institution’s records for whom there is a means of contact.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="alumni-solicited" class="section level2 hasAnchor" number="5.9">
+<h2><span class="header-section-number">5.9</span> Alumni Solicited<a href="glossary.html#alumni-solicited" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+The number of alumni of record who received at least one solicitation during the course of the reporting year.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="auditor" class="section level2 hasAnchor" number="5.10">
+<h2><span class="header-section-number">5.10</span> Auditor<a href="glossary.html#auditor" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+A person who wishes to attend class but who does not desire credit is an auditor. Courses that are audited do not count toward financial aid. A student may receive credit for an audited course only by enrolling in it as a regular student in a subsequent quarter.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="bachelors-degree" class="section level2 hasAnchor" number="5.11">
+<h2><span class="header-section-number">5.11</span> Bachelor’s Degree<a href="glossary.html#bachelors-degree" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+An award (baccalaureate or equivalent degree, as determined by the Secretary of the U.S. Department of Education) that normally requires at least four years but not more than five years of full-time equivalent college-level work. Also, it includes bachelor’s degrees in which the normal four years of work are completed in three years.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="board-days" class="section level2 hasAnchor" number="5.12">
+<h2><span class="header-section-number">5.12</span> Board days<a href="glossary.html#board-days" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+The number of days the Gwinn Commons dining hall is open during the dates on the room &amp; meal plan contract. Partial days are calculated using the following: Breakfast is 0.22; Lunch is 0.33; Dinner is 0.45. For example, total board days for 2014-15 was 221.35.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="capital-purposes-endowment-and-similar-funds-income-restricted" class="section level2 hasAnchor" number="5.13">
+<h2><span class="header-section-number">5.13</span> Capital Purposes: Endowment and Similar Funds: Income Restricted<a href="glossary.html#capital-purposes-endowment-and-similar-funds-income-restricted" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Gifts added to the endowment funds of the institution by donor direction, from which the income is limited by the donor for specific purposes or programs. The categories of restriction here are the same as those listed under Current Operations: Restricted.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="capital-purposes-endowment-and-similar-funds-income-unrestricted" class="section level2 hasAnchor" number="5.14">
+<h2><span class="header-section-number">5.14</span> Capital Purposes: Endowment and Similar Funds: Income Unrestricted<a href="glossary.html#capital-purposes-endowment-and-similar-funds-income-unrestricted" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Gifts restricted by donors for endowment, but not bearing any restriction from the donor as to the use of the income the endowment produces.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="capital-purposes-loan-funds" class="section level2 hasAnchor" number="5.15">
+<h2><span class="header-section-number">5.15</span> Capital Purposes: Loan Funds<a href="glossary.html#capital-purposes-loan-funds" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Gifts restricted by donors to be used to make loans to students, faculty, and staff.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="capital-purposes-property-buildings-and-equipment" class="section level2 hasAnchor" number="5.16">
+<h2><span class="header-section-number">5.16</span> Capital Purposes: Property, Buildings, and Equipment<a href="glossary.html#capital-purposes-property-buildings-and-equipment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Gifts of real and personal property for the use of the institution, as well as gifts made for the purpose of purchasing buildings, other facilities, equipment, and land for use by the institution; constructing or providing major renovations of buildings and other facilities: and retirement of debt.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="catalog-year-summer-2011-and-forward" class="section level2 hasAnchor" number="5.17">
+<h2><span class="header-section-number">5.17</span> Catalog Year, Summer 2011 and forward<a href="glossary.html#catalog-year-summer-2011-and-forward" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Beginning in Summer 2011, the catalog year starts with Summer term and finishes with Spring term. In the Banner term coding format, Summer 2011 will be 201120 and Fall 2011 will be 201121.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="census-date---10th-day" class="section level2 hasAnchor" number="5.18">
+<h2><span class="header-section-number">5.18</span> Census Date - 10th Day<a href="glossary.html#census-date---10th-day" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+The institution’s official quarterly reporting date – fall, winter and spring. Fall 10th day is the university’s official census date. Strategic data is extracted from university transactional systems (e.g. Banner).</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="census-date---end-of-quarter" class="section level2 hasAnchor" number="5.19">
+<h2><span class="header-section-number">5.19</span> Census Date - End of Quarter<a href="glossary.html#census-date---end-of-quarter" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+The institution’s second official quarterly reporting date – summer, fall, winter and spring. Quarterly, this date occurs before grades are rolled to history and includes a final opportunity for departmental data managers to update information in the transactional system (e.g. Banner) before it is extracted and loaded into the Executive Decision Data Warehouse.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="certification---education" class="section level2 hasAnchor" number="5.20">
+<h2><span class="header-section-number">5.20</span> Certification - Education<a href="glossary.html#certification---education" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Completed requirements of an SPU certification program. Certification programs in the School of Education are available at the undergraduate, master’s, and doctoral levels. The School of Education is responsible to notify SAS of students who complete a certification program in a term in which they are not earning a degree, and SAS will make note of the Certificate Awarded (CA) in SHADEGR.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-rank" class="section level2 hasAnchor" number="5.21">
+<h2><span class="header-section-number">5.21</span> Class rank<a href="glossary.html#class-rank" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+The relative numerical position of a student in his or her graduating class, as reported by the high school.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-section---regular-lecture-section" class="section level2 hasAnchor" number="5.22">
+<h2><span class="header-section-number">5.22</span> Class Section - “regular” lecture section<a href="glossary.html#class-section---regular-lecture-section" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+A course which is provided principally by means of regularly scheduled classes meeting in classrooms or similar facilities at stated times.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-section---regular-lecture-section-1" class="section level2 hasAnchor" number="5.23">
+<h2><span class="header-section-number">5.23</span> Class Section - “regular” lecture section<a href="glossary.html#class-section---regular-lecture-section-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+For reporting departmental information (Quarterly Census; End of Year Academic Analysis/Faculty Load), “regular or organized” sections are identified any section that counts toward faculty load and is not identified as individual instruction. When counting credits generated for faculty load purposes, overload classes are not included as part of “regular” credits.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-section---blendedhybrid-instruction" class="section level2 hasAnchor" number="5.24">
+<h2><span class="header-section-number">5.24</span> Class Section - blended/hybrid instruction<a href="glossary.html#class-section---blendedhybrid-instruction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Course that blends online and face-to-face delivery. Substantial portion of the content is delivered online, typically uses online discussions, and typically has some face-to-face meetings. (Portion of content delivered online: 30 to 79%.) Schedule code BRL identifies these classes. For general discussion of schedule coding scheme, see “Class Section - Schedule Type - Coding Scheme.”</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-section---individual-instruction" class="section level2 hasAnchor" number="5.25">
+<h2><span class="header-section-number">5.25</span> Class Section - Individual Instruction<a href="glossary.html#class-section---individual-instruction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+In an Individual Instruction class, the student does specific work independently with the instructor as outlined in the official Independent Study Agreement. Work for an independent study occurs outside of the classroom setting. The instructor and student must meet on a regular basis for the number of consultations noted in the agreement. Courses are defined as individual instruction if they fall into one of the following types: Independent Study, Internship, Practicum (not Clinical Practicum), Research, Thesis, Colloquium, Special Topics, Individual Instruction, Dissertation. For reporting departmental information (Quarterly Census; End of Year Academic Analysis), sections with a SSBSECT_SCHD_CODE of 1-character codes 5, 6, 7, 8, E, F, M, V, W and 3-character codes 2IN, 5IN, 7IL, 7IN, 8IN, EIL, HIN, JIL, JIN, MIL, MIN, NIL, OIL, RIN, VIN are considered individual instruction sections.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-section---individual-instruction-1" class="section level2 hasAnchor" number="5.26">
+<h2><span class="header-section-number">5.26</span> Class Section - Individual Instruction<a href="glossary.html#class-section---individual-instruction-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+A course in which instruction is not conducted in regularly scheduled class meetings. Includes “readings” or “special topics” courses, “problems” or “research” courses, including dissertation/thesis research, and “individual lesson” courses (typically music and fine arts).</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-section---labs" class="section level2 hasAnchor" number="5.27">
+<h2><span class="header-section-number">5.27</span> Class Section - Labs<a href="glossary.html#class-section---labs" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+For reporting departmental information (Quarterly Census; End of Year Academic Analysis), “labs” are identified as having zero (0) credits and/or have a SSBSECT_SESS_CODE code of 3.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-section---online-instruction" class="section level2 hasAnchor" number="5.28">
+<h2><span class="header-section-number">5.28</span> Class Section - online instruction<a href="glossary.html#class-section---online-instruction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Course where most of the content is delivered online. Typically has no face-to-face meetings. (Portion of content delivered online: 80% or more.)</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-section---schedule-type-coding-scheme" class="section level2 hasAnchor" number="5.29">
+<h2><span class="header-section-number">5.29</span> Class Section - Schedule Type-Coding Scheme<a href="glossary.html#class-section---schedule-type-coding-scheme" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+For reporting purposes OIR uses a revised schedule type coding scheme. OIR moved from a 1 character code to a 3 character code. The fOIRst code is a unique identifier currently used on Banner – e.g. H = special topics; the second character determines if the course is considered as a 1) regular/organized class (R) or 2) individual instruction(I)–e.g. HR, HI; while the thOIRd character determines if the course is 1) counted toward faculty load (L) or 2) not counted toward faculty load (N) – e.g. HRL, HIN. Exception: “Z” as second character = not counted when Faculty Load determined (CCCU) nor counted in Delaware Study. Please see blue tab labeled “Schedule Codes” for an expanded discussion.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-section---traditional-instruction" class="section level2 hasAnchor" number="5.30">
+<h2><span class="header-section-number">5.30</span> Class Section - traditional instruction<a href="glossary.html#class-section---traditional-instruction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Course with no online technology used - content is delivered in writing or orally. (Portion of content delivered online: 0%.)</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class-section---web-facilitated-instruction" class="section level2 hasAnchor" number="5.31">
+<h2><span class="header-section-number">5.31</span> Class Section - web facilitated instruction<a href="glossary.html#class-section---web-facilitated-instruction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Course which uses web-based technology to facilitate what is essentially a face-to-face course. Uses a learning management system (CMS) or web pages to post the syllabus and assignments, for example. (Portion of content delivered online: 1 to 29%.)</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class1---freshman" class="section level2 hasAnchor" number="5.32">
+<h2><span class="header-section-number">5.32</span> Class(1) - Freshman<a href="glossary.html#class1---freshman" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+An undergraduate student with fewer than 45 transcripted Undergraduate credit hours: includes SPU and transfer work accepted.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class2---sophomore" class="section level2 hasAnchor" number="5.33">
+<h2><span class="header-section-number">5.33</span> Class(2) - Sophomore<a href="glossary.html#class2---sophomore" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+An undergraduate student with 45-89 transcripted credit hours: includes SPU and Transfer credits accepted.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class3---junior" class="section level2 hasAnchor" number="5.34">
+<h2><span class="header-section-number">5.34</span> Class(3) - Junior<a href="glossary.html#class3---junior" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+An undergraduate student with 90-134 transcripted credit hours: includes SPU and transfer credits accepted.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class4---senior" class="section level2 hasAnchor" number="5.35">
+<h2><span class="header-section-number">5.35</span> Class(4) - Senior<a href="glossary.html#class4---senior" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+An undergraduate student with 135 or more transcripted credit hours: includes SPU and Transfer credits accepted.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class5---post-baccalaureate-students" class="section level2 hasAnchor" number="5.36">
+<h2><span class="header-section-number">5.36</span> Class(5) - Post-Baccalaureate Students<a href="glossary.html#class5---post-baccalaureate-students" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Students who have received the baccalaureate degree and are seeking a second bachelor’s degree or initial teacher certification. Admission to this classification is by application only.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class6---masters-student" class="section level2 hasAnchor" number="5.37">
+<h2><span class="header-section-number">5.37</span> Class(6) - Master’s Student<a href="glossary.html#class6---masters-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+A post-baccalaureate student enrolled in a graduate program that leads to a master’s degree or master’s level certification.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="class7---doctoral-student" class="section level2 hasAnchor" number="5.38">
+<h2><span class="header-section-number">5.38</span> Class(7) - Doctoral Student<a href="glossary.html#class7---doctoral-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+A post-baccalaureate student enrolled in a graduate program that leads to a an approved doctoral degree.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="clock-hours" class="section level2 hasAnchor" number="5.39">
+<h2><span class="header-section-number">5.39</span> Clock Hours<a href="glossary.html#clock-hours" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+See Continuing Education Units</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="cohort-term---first-time-full-time-freshman" class="section level2 hasAnchor" number="5.40">
+<h2><span class="header-section-number">5.40</span> Cohort Term - First-time, Full-time Freshman<a href="glossary.html#cohort-term---first-time-full-time-freshman" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+The term that full-time students enter college for the first time. Students who attend university as first-time students or who enter with advanced standing are counted as first-time first-year during a term.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="cohort-year---first-time-full-time-freshman" class="section level2 hasAnchor" number="5.41">
+<h2><span class="header-section-number">5.41</span> Cohort Year - First-time, Full-time Freshman<a href="glossary.html#cohort-year---first-time-full-time-freshman" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+The year that full-time students enter college for the first time. Students who attend university as first-time students or who enter with advanced standing are counted as first-time first-year during the academic year.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="cohort-year-coding-undergrad" class="section level2 hasAnchor" number="5.42">
+<h2><span class="header-section-number">5.42</span> Cohort Year Coding Undergrad<a href="glossary.html#cohort-year-coding-undergrad" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Undergraduate Cohort Coding: 1BH1F First-time Full-time Freshman; 1BH1P First-time Part-time Freshman; 1BT1F New Transfer w/AA Full-time; 1BT1P New Transfer w/AA Part-time; 1BT2F New Transfer &lt;90cr Full-time; 1BT2P New Transfer &lt;90cr Part-time. Undergraduate cohort codes are assigned to new undergraduates in their matriculation term.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="common-curriculum" class="section level2 hasAnchor" number="5.43">
+<h2><span class="header-section-number">5.43</span> Common Curriculum<a href="glossary.html#common-curriculum" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+Undergraduate courses with Subject Code - UCOL, UCOR, UFDN and WRI</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="commuter" class="section level2 hasAnchor" number="5.44">
+<h2><span class="header-section-number">5.44</span> Commuter<a href="glossary.html#commuter" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+A student who lives off campus in housing that is not owned by, not operated by, or not affiliated with SPU. This category includes students who commute from home and students who have moved to the area to attend college.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="completed-applications" class="section level2 hasAnchor" number="5.45">
+<h2><span class="header-section-number">5.45</span> Completed Applications<a href="glossary.html#completed-applications" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+An individual who has fulfilled the institution’s requirements to be considered for admission (including payment or waiving of the application fee, if any) and who has been notified of one of the following actions: admission, denial, placement on waiting list, or application withdrawn (by applicant or institution).</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="confirmed-student" class="section level2 hasAnchor" number="5.46">
+<h2><span class="header-section-number">5.46</span> Confirmed Student<a href="glossary.html#confirmed-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong>
+An admitted undergraduate student who has not cancelled his or her admission and who has done one or more of the following: made an advance payment, registered for or participated in New Student Advising (NSA), or registered for classes. On an individual basis, a few additional non-cancelled admits may be considered confirmed.</p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="continuing-education-destiny-one" class="section level2 hasAnchor" number="5.47">
+<h2><span class="header-section-number">5.47</span> Continuing Education Destiny One<a href="glossary.html#continuing-education-destiny-one" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="continuing-education-student" class="section level2 hasAnchor" number="5.48">
+<h2><span class="header-section-number">5.48</span> Continuing Education Student<a href="glossary.html#continuing-education-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="continuing-education-term-code" class="section level2 hasAnchor" number="5.49">
+<h2><span class="header-section-number">5.49</span> Continuing Education Term Code<a href="glossary.html#continuing-education-term-code" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="continuing-education-units-or-clock-hours" class="section level2 hasAnchor" number="5.50">
+<h2><span class="header-section-number">5.50</span> Continuing Education Units or Clock Hours<a href="glossary.html#continuing-education-units-or-clock-hours" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="corporations" class="section level2 hasAnchor" number="5.51">
+<h2><span class="header-section-number">5.51</span> Corporations<a href="glossary.html#corporations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="count---duplicated" class="section level2 hasAnchor" number="5.52">
+<h2><span class="header-section-number">5.52</span> Count - Duplicated<a href="glossary.html#count---duplicated" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="count---unduplicated" class="section level2 hasAnchor" number="5.53">
+<h2><span class="header-section-number">5.53</span> Count - Unduplicated<a href="glossary.html#count---unduplicated" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="courses-graduate" class="section level2 hasAnchor" number="5.54">
+<h2><span class="header-section-number">5.54</span> Courses, Graduate<a href="glossary.html#courses-graduate" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="courses-non-degree-other" class="section level2 hasAnchor" number="5.55">
+<h2><span class="header-section-number">5.55</span> Courses, non-degree, Other<a href="glossary.html#courses-non-degree-other" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="courses-undergraduate-lower-division" class="section level2 hasAnchor" number="5.56">
+<h2><span class="header-section-number">5.56</span> Courses, Undergraduate, Lower Division<a href="glossary.html#courses-undergraduate-lower-division" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="courses-undergraduate-upper-division" class="section level2 hasAnchor" number="5.57">
+<h2><span class="header-section-number">5.57</span> Courses, Undergraduate, Upper Division<a href="glossary.html#courses-undergraduate-upper-division" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="credit" class="section level2 hasAnchor" number="5.58">
+<h2><span class="header-section-number">5.58</span> Credit<a href="glossary.html#credit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="cumulative-grade-point-average" class="section level2 hasAnchor" number="5.59">
+<h2><span class="header-section-number">5.59</span> Cumulative Grade Point Average<a href="glossary.html#cumulative-grade-point-average" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="current-operations-restricted" class="section level2 hasAnchor" number="5.60">
+<h2><span class="header-section-number">5.60</span> Current Operations: Restricted<a href="glossary.html#current-operations-restricted" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="current-operations-unrestricted" class="section level2 hasAnchor" number="5.61">
+<h2><span class="header-section-number">5.61</span> Current Operations: Unrestricted<a href="glossary.html#current-operations-unrestricted" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="decisioned-student" class="section level2 hasAnchor" number="5.62">
+<h2><span class="header-section-number">5.62</span> Decisioned Student<a href="glossary.html#decisioned-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="deferred-gifts" class="section level2 hasAnchor" number="5.63">
+<h2><span class="header-section-number">5.63</span> Deferred Gifts<a href="glossary.html#deferred-gifts" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="degrees-awarded" class="section level2 hasAnchor" number="5.64">
+<h2><span class="header-section-number">5.64</span> Degrees Awarded<a href="glossary.html#degrees-awarded" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="direct-expenditure" class="section level2 hasAnchor" number="5.65">
+<h2><span class="header-section-number">5.65</span> Direct Expenditure<a href="glossary.html#direct-expenditure" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="direct-expenditure-1" class="section level2 hasAnchor" number="5.66">
+<h2><span class="header-section-number">5.66</span> Direct Expenditure<a href="glossary.html#direct-expenditure-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="discount-rate---institution-based-all-institutional-resources-undergraduate-programs" class="section level2 hasAnchor" number="5.67">
+<h2><span class="header-section-number">5.67</span> Discount Rate - Institution Based (all institutional resources; undergraduate programs)<a href="glossary.html#discount-rate---institution-based-all-institutional-resources-undergraduate-programs" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="discount-rate---undergraduate-tuition-based" class="section level2 hasAnchor" number="5.68">
+<h2><span class="header-section-number">5.68</span> Discount Rate - Undergraduate Tuition Based<a href="glossary.html#discount-rate---undergraduate-tuition-based" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="doctoral-degree---researchscholarship" class="section level2 hasAnchor" number="5.69">
+<h2><span class="header-section-number">5.69</span> Doctoral Degree - Research/Scholarship<a href="glossary.html#doctoral-degree---researchscholarship" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="dual-enrollment" class="section level2 hasAnchor" number="5.70">
+<h2><span class="header-section-number">5.70</span> Dual Enrollment<a href="glossary.html#dual-enrollment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee" class="section level2 hasAnchor" number="5.71">
+<h2><span class="header-section-number">5.71</span> Employee<a href="glossary.html#employee" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---academic-administrator" class="section level2 hasAnchor" number="5.72">
+<h2><span class="header-section-number">5.72</span> Employee - Academic Administrator<a href="glossary.html#employee---academic-administrator" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---faculty" class="section level2 hasAnchor" number="5.73">
+<h2><span class="header-section-number">5.73</span> Employee - Faculty<a href="glossary.html#employee---faculty" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---faculty-1" class="section level2 hasAnchor" number="5.74">
+<h2><span class="header-section-number">5.74</span> Employee - Faculty<a href="glossary.html#employee---faculty-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---staff---is" class="section level2 hasAnchor" number="5.75">
+<h2><span class="header-section-number">5.75</span> Employee - Staff - IS<a href="glossary.html#employee---staff---is" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---staff---librarian" class="section level2 hasAnchor" number="5.76">
+<h2><span class="header-section-number">5.76</span> Employee - Staff - Librarian<a href="glossary.html#employee---staff---librarian" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---staff-exempt" class="section level2 hasAnchor" number="5.77">
+<h2><span class="header-section-number">5.77</span> Employee - Staff / Exempt<a href="glossary.html#employee---staff-exempt" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---staff-nonexempt" class="section level2 hasAnchor" number="5.78">
+<h2><span class="header-section-number">5.78</span> Employee - Staff / Nonexempt<a href="glossary.html#employee---staff-nonexempt" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---staff-temporary" class="section level2 hasAnchor" number="5.79">
+<h2><span class="header-section-number">5.79</span> Employee - Staff / Temporary<a href="glossary.html#employee---staff-temporary" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---staff-time-full-time" class="section level2 hasAnchor" number="5.80">
+<h2><span class="header-section-number">5.80</span> Employee - Staff / Time / Full-time<a href="glossary.html#employee---staff-time-full-time" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---staff-time-part-time" class="section level2 hasAnchor" number="5.81">
+<h2><span class="header-section-number">5.81</span> Employee - Staff / Time / Part-time<a href="glossary.html#employee---staff-time-part-time" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee---staff-time-short-hour" class="section level2 hasAnchor" number="5.82">
+<h2><span class="header-section-number">5.82</span> Employee - Staff / Time / Short Hour<a href="glossary.html#employee---staff-time-short-hour" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee-full-time-vs.-part-time" class="section level2 hasAnchor" number="5.83">
+<h2><span class="header-section-number">5.83</span> Employee Full-time vs. Part-time<a href="glossary.html#employee-full-time-vs.-part-time" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee-administrator" class="section level2 hasAnchor" number="5.84">
+<h2><span class="header-section-number">5.84</span> Employee-Administrator<a href="glossary.html#employee-administrator" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="employee-executive" class="section level2 hasAnchor" number="5.85">
+<h2><span class="header-section-number">5.85</span> Employee-Executive<a href="glossary.html#employee-executive" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="end-of-year" class="section level2 hasAnchor" number="5.86">
+<h2><span class="header-section-number">5.86</span> End of Year<a href="glossary.html#end-of-year" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="endowment" class="section level2 hasAnchor" number="5.87">
+<h2><span class="header-section-number">5.87</span> Endowment<a href="glossary.html#endowment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="enrollment" class="section level2 hasAnchor" number="5.88">
+<h2><span class="header-section-number">5.88</span> Enrollment<a href="glossary.html#enrollment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="expenditures" class="section level2 hasAnchor" number="5.89">
+<h2><span class="header-section-number">5.89</span> Expenditures<a href="glossary.html#expenditures" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="exploratory-curriculum" class="section level2 hasAnchor" number="5.90">
+<h2><span class="header-section-number">5.90</span> Exploratory Curriculum<a href="glossary.html#exploratory-curriculum" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty---adjunct" class="section level2 hasAnchor" number="5.91">
+<h2><span class="header-section-number">5.91</span> Faculty - Adjunct<a href="glossary.html#faculty---adjunct" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty---non-teaching-assignments" class="section level2 hasAnchor" number="5.92">
+<h2><span class="header-section-number">5.92</span> Faculty - Non-Teaching Assignments<a href="glossary.html#faculty---non-teaching-assignments" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty---one-year-appointment" class="section level2 hasAnchor" number="5.93">
+<h2><span class="header-section-number">5.93</span> Faculty - One Year Appointment<a href="glossary.html#faculty---one-year-appointment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty---regular" class="section level2 hasAnchor" number="5.94">
+<h2><span class="header-section-number">5.94</span> Faculty - Regular<a href="glossary.html#faculty---regular" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty---regular---research" class="section level2 hasAnchor" number="5.95">
+<h2><span class="header-section-number">5.95</span> Faculty - Regular - Research<a href="glossary.html#faculty---regular---research" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty---regular---teaching" class="section level2 hasAnchor" number="5.96">
+<h2><span class="header-section-number">5.96</span> Faculty - Regular - Teaching<a href="glossary.html#faculty---regular---teaching" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty---supplemental" class="section level2 hasAnchor" number="5.97">
+<h2><span class="header-section-number">5.97</span> Faculty - Supplemental<a href="glossary.html#faculty---supplemental" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-and-staff" class="section level2 hasAnchor" number="5.98">
+<h2><span class="header-section-number">5.98</span> Faculty and Staff<a href="glossary.html#faculty-and-staff" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-fte" class="section level2 hasAnchor" number="5.99">
+<h2><span class="header-section-number">5.99</span> Faculty FTE<a href="glossary.html#faculty-fte" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-fte-1" class="section level2 hasAnchor" number="5.100">
+<h2><span class="header-section-number">5.100</span> Faculty FTE<a href="glossary.html#faculty-fte-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-fte---adjunct" class="section level2 hasAnchor" number="5.101">
+<h2><span class="header-section-number">5.101</span> Faculty FTE - Adjunct<a href="glossary.html#faculty-fte---adjunct" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-fte---calculator-for-workload-of-team-taught-classes" class="section level2 hasAnchor" number="5.102">
+<h2><span class="header-section-number">5.102</span> Faculty FTE - Calculator for workload of team-taught classes<a href="glossary.html#faculty-fte---calculator-for-workload-of-team-taught-classes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-fte---calculator-for-workload-that-includes-graduate-level-classes" class="section level2 hasAnchor" number="5.103">
+<h2><span class="header-section-number">5.103</span> Faculty FTE - Calculator for workload that includes graduate level classes<a href="glossary.html#faculty-fte---calculator-for-workload-that-includes-graduate-level-classes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-fte---overload" class="section level2 hasAnchor" number="5.104">
+<h2><span class="header-section-number">5.104</span> Faculty FTE - Overload<a href="glossary.html#faculty-fte---overload" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-load-credit-flc" class="section level2 hasAnchor" number="5.105">
+<h2><span class="header-section-number">5.105</span> Faculty Load Credit (FLC)<a href="glossary.html#faculty-load-credit-flc" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-load-credit-flc---release-credits" class="section level2 hasAnchor" number="5.106">
+<h2><span class="header-section-number">5.106</span> Faculty Load Credit (FLC) - Release Credits<a href="glossary.html#faculty-load-credit-flc---release-credits" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-load-credit-flc---release-credits---administration-credits" class="section level2 hasAnchor" number="5.107">
+<h2><span class="header-section-number">5.107</span> Faculty Load Credit (FLC) - Release Credits - Administration Credits<a href="glossary.html#faculty-load-credit-flc---release-credits---administration-credits" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-load-credit-flc---release-credits---faculty-leave-credit" class="section level2 hasAnchor" number="5.108">
+<h2><span class="header-section-number">5.108</span> Faculty Load Credit (FLC) - Release Credits - Faculty Leave Credit<a href="glossary.html#faculty-load-credit-flc---release-credits---faculty-leave-credit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-load-credit-flc---release-credits---non-classroom-instructional-load-credit" class="section level2 hasAnchor" number="5.109">
+<h2><span class="header-section-number">5.109</span> Faculty Load Credit (FLC) - Release Credits - Non-classroom Instructional Load Credit<a href="glossary.html#faculty-load-credit-flc---release-credits---non-classroom-instructional-load-credit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-load-credit-flc---release-credits---professional-development-credit" class="section level2 hasAnchor" number="5.110">
+<h2><span class="header-section-number">5.110</span> Faculty Load Credit (FLC) - Release Credits - Professional Development Credit<a href="glossary.html#faculty-load-credit-flc---release-credits---professional-development-credit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-load-credit-flc---release-credits---teaching-load-credit" class="section level2 hasAnchor" number="5.111">
+<h2><span class="header-section-number">5.111</span> Faculty Load Credit (FLC) - Release Credits - Teaching Load Credit<a href="glossary.html#faculty-load-credit-flc---release-credits---teaching-load-credit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-load-credit-flc---total-load-credit-to-support-learning" class="section level2 hasAnchor" number="5.112">
+<h2><span class="header-section-number">5.112</span> Faculty Load Credit (FLC) - Total Load Credit to Support Learning<a href="glossary.html#faculty-load-credit-flc---total-load-credit-to-support-learning" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-work-load" class="section level2 hasAnchor" number="5.113">
+<h2><span class="header-section-number">5.113</span> Faculty Work Load<a href="glossary.html#faculty-work-load" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="faculty-work-load-calculator---applied-to-graduate-courses" class="section level2 hasAnchor" number="5.114">
+<h2><span class="header-section-number">5.114</span> Faculty Work Load Calculator - Applied to Graduate Courses<a href="glossary.html#faculty-work-load-calculator---applied-to-graduate-courses" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="fall-cohort---first-time-full-time-freshman" class="section level2 hasAnchor" number="5.115">
+<h2><span class="header-section-number">5.115</span> Fall Cohort - First-time, Full-time Freshman<a href="glossary.html#fall-cohort---first-time-full-time-freshman" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="federal-work-study-program" class="section level2 hasAnchor" number="5.116">
+<h2><span class="header-section-number">5.116</span> Federal Work Study Program<a href="glossary.html#federal-work-study-program" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="first-generation-student" class="section level2 hasAnchor" number="5.117">
+<h2><span class="header-section-number">5.117</span> First Generation Student<a href="glossary.html#first-generation-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="first-time-first-year-student" class="section level2 hasAnchor" number="5.118">
+<h2><span class="header-section-number">5.118</span> First-time, first-year student<a href="glossary.html#first-time-first-year-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="first-time-full-time-student" class="section level2 hasAnchor" number="5.119">
+<h2><span class="header-section-number">5.119</span> First-time, Full-time student<a href="glossary.html#first-time-full-time-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="fiscal-year" class="section level2 hasAnchor" number="5.120">
+<h2><span class="header-section-number">5.120</span> Fiscal Year<a href="glossary.html#fiscal-year" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="foundations" class="section level2 hasAnchor" number="5.121">
+<h2><span class="header-section-number">5.121</span> Foundations<a href="glossary.html#foundations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="four-quarter-year" class="section level2 hasAnchor" number="5.122">
+<h2><span class="header-section-number">5.122</span> Four Quarter Year<a href="glossary.html#four-quarter-year" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="full-time-students" class="section level2 hasAnchor" number="5.123">
+<h2><span class="header-section-number">5.123</span> Full Time Students<a href="glossary.html#full-time-students" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="full-time-equivalence-fte" class="section level2 hasAnchor" number="5.124">
+<h2><span class="header-section-number">5.124</span> Full-time Equivalence (FTE)<a href="glossary.html#full-time-equivalence-fte" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="full-time-vs.-part-time-student---enrollment" class="section level2 hasAnchor" number="5.125">
+<h2><span class="header-section-number">5.125</span> Full-time vs. Part-time Student - Enrollment<a href="glossary.html#full-time-vs.-part-time-student---enrollment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="full-time-vs.-part-time-student---financial-aid" class="section level2 hasAnchor" number="5.126">
+<h2><span class="header-section-number">5.126</span> Full-time vs. Part-time Student - Financial Aid<a href="glossary.html#full-time-vs.-part-time-student---financial-aid" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="fundraising-consortia" class="section level2 hasAnchor" number="5.127">
+<h2><span class="header-section-number">5.127</span> Fundraising Consortia<a href="glossary.html#fundraising-consortia" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="good-standing---academic" class="section level2 hasAnchor" number="5.128">
+<h2><span class="header-section-number">5.128</span> Good Standing - Academic<a href="glossary.html#good-standing---academic" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="grade-point-average" class="section level2 hasAnchor" number="5.129">
+<h2><span class="header-section-number">5.129</span> Grade Point Average<a href="glossary.html#grade-point-average" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="graduate-admit---probational" class="section level2 hasAnchor" number="5.130">
+<h2><span class="header-section-number">5.130</span> Graduate Admit - Probational<a href="glossary.html#graduate-admit---probational" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="graduate-admit---provisional" class="section level2 hasAnchor" number="5.131">
+<h2><span class="header-section-number">5.131</span> Graduate Admit - Provisional<a href="glossary.html#graduate-admit---provisional" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="graduate-student" class="section level2 hasAnchor" number="5.132">
+<h2><span class="header-section-number">5.132</span> Graduate student<a href="glossary.html#graduate-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="graduation-rate" class="section level2 hasAnchor" number="5.133">
+<h2><span class="header-section-number">5.133</span> Graduation Rate<a href="glossary.html#graduation-rate" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="graduation-rate---doctoral" class="section level2 hasAnchor" number="5.134">
+<h2><span class="header-section-number">5.134</span> Graduation Rate - Doctoral<a href="glossary.html#graduation-rate---doctoral" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="graduation-rate---first-time-full-time-freshmen" class="section level2 hasAnchor" number="5.135">
+<h2><span class="header-section-number">5.135</span> Graduation Rate - First-time Full-time Freshmen<a href="glossary.html#graduation-rate---first-time-full-time-freshmen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="graduation-rate---masters" class="section level2 hasAnchor" number="5.136">
+<h2><span class="header-section-number">5.136</span> Graduation Rate - Masters<a href="glossary.html#graduation-rate---masters" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="graduation-rate---transfers" class="section level2 hasAnchor" number="5.137">
+<h2><span class="header-section-number">5.137</span> Graduation Rate - Transfers<a href="glossary.html#graduation-rate---transfers" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="high-school-applicant-early-action" class="section level2 hasAnchor" number="5.138">
+<h2><span class="header-section-number">5.138</span> High School applicant, Early Action<a href="glossary.html#high-school-applicant-early-action" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="high-school-applicant-late" class="section level2 hasAnchor" number="5.139">
+<h2><span class="header-section-number">5.139</span> High School applicant, Late<a href="glossary.html#high-school-applicant-late" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="high-school-applicant-regular" class="section level2 hasAnchor" number="5.140">
+<h2><span class="header-section-number">5.140</span> High School applicant, Regular<a href="glossary.html#high-school-applicant-regular" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="housing-codes-for-new-students-indicating-a-deposit-has-been-made" class="section level2 hasAnchor" number="5.141">
+<h2><span class="header-section-number">5.141</span> Housing codes for new students, indicating a deposit has been made<a href="glossary.html#housing-codes-for-new-students-indicating-a-deposit-has-been-made" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="majorsminors" class="section level2 hasAnchor" number="5.142">
+<h2><span class="header-section-number">5.142</span> Majors/Minors<a href="glossary.html#majorsminors" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="masters-degree" class="section level2 hasAnchor" number="5.143">
+<h2><span class="header-section-number">5.143</span> Master’s Degree<a href="glossary.html#masters-degree" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="matriculated-students" class="section level2 hasAnchor" number="5.144">
+<h2><span class="header-section-number">5.144</span> Matriculated Students<a href="glossary.html#matriculated-students" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="national-merit-scholar" class="section level2 hasAnchor" number="5.145">
+<h2><span class="header-section-number">5.145</span> National Merit Scholar<a href="glossary.html#national-merit-scholar" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="net-tuition-revenue---graduate" class="section level2 hasAnchor" number="5.146">
+<h2><span class="header-section-number">5.146</span> Net Tuition Revenue - Graduate<a href="glossary.html#net-tuition-revenue---graduate" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="net-tuition-revenue---undergraduate" class="section level2 hasAnchor" number="5.147">
+<h2><span class="header-section-number">5.147</span> Net Tuition Revenue - Undergraduate<a href="glossary.html#net-tuition-revenue---undergraduate" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="new-freshman" class="section level2 hasAnchor" number="5.148">
+<h2><span class="header-section-number">5.148</span> New Freshman<a href="glossary.html#new-freshman" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="new-student" class="section level2 hasAnchor" number="5.149">
+<h2><span class="header-section-number">5.149</span> New student<a href="glossary.html#new-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="non-matriculated-students" class="section level2 hasAnchor" number="5.150">
+<h2><span class="header-section-number">5.150</span> Non-Matriculated Students<a href="glossary.html#non-matriculated-students" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="other-individuals" class="section level2 hasAnchor" number="5.151">
+<h2><span class="header-section-number">5.151</span> Other Individuals<a href="glossary.html#other-individuals" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="other-organizations" class="section level2 hasAnchor" number="5.152">
+<h2><span class="header-section-number">5.152</span> Other Organizations<a href="glossary.html#other-organizations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="parents" class="section level2 hasAnchor" number="5.153">
+<h2><span class="header-section-number">5.153</span> Parents<a href="glossary.html#parents" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="persistence-rate-retention---first-time-full-time-freshmen" class="section level2 hasAnchor" number="5.154">
+<h2><span class="header-section-number">5.154</span> Persistence Rate (Retention) - First-time Full-time Freshmen<a href="glossary.html#persistence-rate-retention---first-time-full-time-freshmen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="post-masters-certificate" class="section level2 hasAnchor" number="5.155">
+<h2><span class="header-section-number">5.155</span> Post-master’s Certificate<a href="glossary.html#post-masters-certificate" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="pre-qualified-mba" class="section level2 hasAnchor" number="5.156">
+<h2><span class="header-section-number">5.156</span> Pre-Qualified MBA<a href="glossary.html#pre-qualified-mba" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="quarter-fall" class="section level2 hasAnchor" number="5.157">
+<h2><span class="header-section-number">5.157</span> Quarter, Fall<a href="glossary.html#quarter-fall" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="quarter-spring" class="section level2 hasAnchor" number="5.158">
+<h2><span class="header-section-number">5.158</span> Quarter, Spring<a href="glossary.html#quarter-spring" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="quarter-summer" class="section level2 hasAnchor" number="5.159">
+<h2><span class="header-section-number">5.159</span> Quarter, Summer<a href="glossary.html#quarter-summer" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="quarter-winter" class="section level2 hasAnchor" number="5.160">
+<h2><span class="header-section-number">5.160</span> Quarter, Winter<a href="glossary.html#quarter-winter" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="race-and-ethnicity-data-reporting-standards-fall-2010-and-forward" class="section level2 hasAnchor" number="5.161">
+<h2><span class="header-section-number">5.161</span> Race and ethnicity data reporting standards, Fall 2010 and forward<a href="glossary.html#race-and-ethnicity-data-reporting-standards-fall-2010-and-forward" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="readmission" class="section level2 hasAnchor" number="5.162">
+<h2><span class="header-section-number">5.162</span> Readmission<a href="glossary.html#readmission" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="religious-organizations" class="section level2 hasAnchor" number="5.163">
+<h2><span class="header-section-number">5.163</span> Religious Organizations<a href="glossary.html#religious-organizations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="residential-student" class="section level2 hasAnchor" number="5.164">
+<h2><span class="header-section-number">5.164</span> Residential Student<a href="glossary.html#residential-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="retention-rate---graduate-students" class="section level2 hasAnchor" number="5.165">
+<h2><span class="header-section-number">5.165</span> Retention Rate - Graduate Students<a href="glossary.html#retention-rate---graduate-students" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="retention-rate---undergraduate-students" class="section level2 hasAnchor" number="5.166">
+<h2><span class="header-section-number">5.166</span> Retention Rate - Undergraduate Students<a href="glossary.html#retention-rate---undergraduate-students" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="satc-reporting-standard-for-first-time-full-time-freshmen" class="section level2 hasAnchor" number="5.167">
+<h2><span class="header-section-number">5.167</span> SATC reporting standard for First-time, Full-time Freshmen<a href="glossary.html#satc-reporting-standard-for-first-time-full-time-freshmen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="section-credits-taught" class="section level2 hasAnchor" number="5.168">
+<h2><span class="header-section-number">5.168</span> Section Credits Taught<a href="glossary.html#section-credits-taught" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="senior-citizen-student" class="section level2 hasAnchor" number="5.169">
+<h2><span class="header-section-number">5.169</span> Senior Citizen Student<a href="glossary.html#senior-citizen-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="staff-fte" class="section level2 hasAnchor" number="5.170">
+<h2><span class="header-section-number">5.170</span> Staff FTE<a href="glossary.html#staff-fte" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="staff-turnover---calculation" class="section level2 hasAnchor" number="5.171">
+<h2><span class="header-section-number">5.171</span> Staff Turnover - Calculation<a href="glossary.html#staff-turnover---calculation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-faculty-ratio-external" class="section level2 hasAnchor" number="5.172">
+<h2><span class="header-section-number">5.172</span> Student Faculty Ratio External<a href="glossary.html#student-faculty-ratio-external" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-faculty-ratio-internal" class="section level2 hasAnchor" number="5.173">
+<h2><span class="header-section-number">5.173</span> Student Faculty Ratio Internal<a href="glossary.html#student-faculty-ratio-internal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-fte---graduate-annualized-4-quarter" class="section level2 hasAnchor" number="5.174">
+<h2><span class="header-section-number">5.174</span> Student FTE - Graduate, Annualized (4-quarter)<a href="glossary.html#student-fte---graduate-annualized-4-quarter" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-fte---graduate-by-term" class="section level2 hasAnchor" number="5.175">
+<h2><span class="header-section-number">5.175</span> Student FTE - Graduate, by Term<a href="glossary.html#student-fte---graduate-by-term" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-fte---total-academic-year-annualized-3-quarter" class="section level2 hasAnchor" number="5.176">
+<h2><span class="header-section-number">5.176</span> Student FTE - Total Academic Year, Annualized (3-quarter)<a href="glossary.html#student-fte---total-academic-year-annualized-3-quarter" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-fte---undergraduate-annualized-3-quarter" class="section level2 hasAnchor" number="5.177">
+<h2><span class="header-section-number">5.177</span> Student FTE - Undergraduate, Annualized (3-quarter)<a href="glossary.html#student-fte---undergraduate-annualized-3-quarter" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="race-and-ethnicity-data-reporting-standards-fall-2010-and-forward-1" class="section level2 hasAnchor" number="5.178">
+<h2><span class="header-section-number">5.178</span> Race and ethnicity data reporting standards, Fall 2010 and forward<a href="glossary.html#race-and-ethnicity-data-reporting-standards-fall-2010-and-forward-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="readmission-1" class="section level2 hasAnchor" number="5.179">
+<h2><span class="header-section-number">5.179</span> Readmission<a href="glossary.html#readmission-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="religious-organizations-1" class="section level2 hasAnchor" number="5.180">
+<h2><span class="header-section-number">5.180</span> Religious Organizations<a href="glossary.html#religious-organizations-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="residential-student-1" class="section level2 hasAnchor" number="5.181">
+<h2><span class="header-section-number">5.181</span> Residential Student<a href="glossary.html#residential-student-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="retention-rate---graduate-students-1" class="section level2 hasAnchor" number="5.182">
+<h2><span class="header-section-number">5.182</span> Retention Rate - Graduate Students<a href="glossary.html#retention-rate---graduate-students-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="retention-rate---undergraduate-students-1" class="section level2 hasAnchor" number="5.183">
+<h2><span class="header-section-number">5.183</span> Retention Rate - Undergraduate Students<a href="glossary.html#retention-rate---undergraduate-students-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="satc-reporting-standard-for-first-time-full-time-freshmen-1" class="section level2 hasAnchor" number="5.184">
+<h2><span class="header-section-number">5.184</span> SATC reporting standard for First-time, Full-time Freshmen<a href="glossary.html#satc-reporting-standard-for-first-time-full-time-freshmen-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="section-credits-taught-1" class="section level2 hasAnchor" number="5.185">
+<h2><span class="header-section-number">5.185</span> Section Credits Taught<a href="glossary.html#section-credits-taught-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="senior-citizen-student-1" class="section level2 hasAnchor" number="5.186">
+<h2><span class="header-section-number">5.186</span> Senior Citizen Student<a href="glossary.html#senior-citizen-student-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="staff-fte-1" class="section level2 hasAnchor" number="5.187">
+<h2><span class="header-section-number">5.187</span> Staff FTE<a href="glossary.html#staff-fte-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="staff-turnover---calculation-1" class="section level2 hasAnchor" number="5.188">
+<h2><span class="header-section-number">5.188</span> Staff Turnover - Calculation<a href="glossary.html#staff-turnover---calculation-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-faculty-ratio-external-1" class="section level2 hasAnchor" number="5.189">
+<h2><span class="header-section-number">5.189</span> Student Faculty Ratio External<a href="glossary.html#student-faculty-ratio-external-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-faculty-ratio-internal-1" class="section level2 hasAnchor" number="5.190">
+<h2><span class="header-section-number">5.190</span> Student Faculty Ratio Internal<a href="glossary.html#student-faculty-ratio-internal-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-fte---graduate-annualized-4-quarter-1" class="section level2 hasAnchor" number="5.191">
+<h2><span class="header-section-number">5.191</span> Student FTE - Graduate, Annualized (4-quarter)<a href="glossary.html#student-fte---graduate-annualized-4-quarter-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-fte---graduate-by-term-1" class="section level2 hasAnchor" number="5.192">
+<h2><span class="header-section-number">5.192</span> Student FTE - Graduate, by Term<a href="glossary.html#student-fte---graduate-by-term-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-fte---total-academic-year-annualized-3-quarter-1" class="section level2 hasAnchor" number="5.193">
+<h2><span class="header-section-number">5.193</span> Student FTE - Total Academic Year, Annualized (3-quarter)<a href="glossary.html#student-fte---total-academic-year-annualized-3-quarter-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-fte---undergraduate-annualized-3-quarter-1" class="section level2 hasAnchor" number="5.194">
+<h2><span class="header-section-number">5.194</span> Student FTE - Undergraduate, Annualized (3-quarter)<a href="glossary.html#student-fte---undergraduate-annualized-3-quarter-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-fte---undergraduate-by-term" class="section level2 hasAnchor" number="5.195">
+<h2><span class="header-section-number">5.195</span> Student FTE - Undergraduate, by Term<a href="glossary.html#student-fte---undergraduate-by-term" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="student-generated-credits" class="section level2 hasAnchor" number="5.196">
+<h2><span class="header-section-number">5.196</span> Student Generated Credits<a href="glossary.html#student-generated-credits" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="students" class="section level2 hasAnchor" number="5.197">
+<h2><span class="header-section-number">5.197</span> Students<a href="glossary.html#students" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="tenure-status" class="section level2 hasAnchor" number="5.198">
+<h2><span class="header-section-number">5.198</span> Tenure Status<a href="glossary.html#tenure-status" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="terminal-degree" class="section level2 hasAnchor" number="5.199">
+<h2><span class="header-section-number">5.199</span> Terminal Degree<a href="glossary.html#terminal-degree" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="transfer-student" class="section level2 hasAnchor" number="5.200">
+<h2><span class="header-section-number">5.200</span> Transfer Student<a href="glossary.html#transfer-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="undergraduate-student" class="section level2 hasAnchor" number="5.201">
+<h2><span class="header-section-number">5.201</span> Undergraduate Student<a href="glossary.html#undergraduate-student" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="year-cohort---first-time-full-time-freshman" class="section level2 hasAnchor" number="5.202">
+<h2><span class="header-section-number">5.202</span> Year Cohort - First-time, Full-time Freshman<a href="glossary.html#year-cohort---first-time-full-time-freshman" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="year-cohort---first-time-full-time-freshman-1" class="section level2 hasAnchor" number="5.203">
+<h2><span class="header-section-number">5.203</span> Year Cohort - First-time, Full-time Freshman<a href="glossary.html#year-cohort---first-time-full-time-freshman-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Source:</strong></p>
+<p><strong>Date Revised:</strong></p>
+<p><strong>Definition</strong></p>
+<p><strong>Example Values</strong></p>
+</div>
+<div id="yield" class="section level2 hasAnchor" number="5.204">
+<h2><span class="header-section-number">5.204</span> Yield<a href="glossary.html#yield" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="term-enrollment-star.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="intro.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/04-glossary.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["UCB-Data-Dictionary.pdf", "UCB-Data-Dictionary.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

@@ -12,11 +12,13 @@ github-repo: rstudio/bookdown-demo
 description: "This book is a prototype of a functional Data Dictionary for University of Colorado Boulder."
 ---
 
-# Overview
+# Introduction
 
 This book is a prototype of a functional **Data Dictionary**. 
 
 As a proof of concept, the book serves as a demonstration of what University of Colorado Boulder may adopt as _open, collaborative, and living documentation_ of data, data sets, and data applications. This proof of concept is version-controlled with Git, which enables version history, cross-team development, and rapid development. Additionally, this book can be hosted within Github Pages for public - or private - sharing among the campus system. Finally, this book can also be downloaded as a PDF, Ebook, or LaTeX file using the buttons at the top of this page. 
+
+## Prerequisites
 
 Since this data dictionary is written in Markdown, it can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
@@ -28,7 +30,7 @@ install.packages("bookdown")
 # devtools::install_github("rstudio/bookdown")
 ```
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+Each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
 
 To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
 
